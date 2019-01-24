@@ -14,12 +14,13 @@ defaults:
     values:
       image: true
 
-title: Canarypm's Naïve Blog
-name: Canarypm's Native Blog
+title: Canarypwn's Naïve Blog
+name: Canarypwn
 description: Stop talking , just coding.
-
+url:https://daniris.me
 github: https://github.com/showzeng/Minimalism
 rss: true
+copyright_time: 2019
 
 plugins:
   - rouge
@@ -35,5 +36,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
+show_excerpt: true
 
