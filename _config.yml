@@ -14,9 +14,9 @@ defaults:
     values:
       image: true
 
-title: Minimalism
-name: minimalism
-description: Minimalism is a jekyll theme for minimalist
+title: Canarypm's Native Blog
+name: Canarypm's Native Blog
+description: Stop talking , just coding.
 
 github: https://github.com/showzeng/Minimalism
 rss: true
