@@ -14,7 +14,7 @@ defaults:
     values:
       image: true
 
-title: Canarypm's Native Blog
+title: Canarypm's Naïve Blog
 name: Canarypm's Native Blog
 description: Stop talking , just coding.
 
