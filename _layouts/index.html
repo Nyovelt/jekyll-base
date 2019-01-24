@@ -21,7 +21,7 @@
   <body>
     <div class="index-avatar">
       {% if site.avatar %}
-      <a href="/articles"><img src="https://ae01.alicdn.com/kf/HTB1it7xaU_rK1Rjy0Fc762EvVXa8.png" alt="avatar"></a>
+      <a href="/articles"><img src="{{ site.avatar }}" alt="avatar"></a>
       {% else %}
         {% assign image_files = site.static_files | where: "image", true %}
         {% for image in image_files %}
