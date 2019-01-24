@@ -36,4 +36,4 @@ exclude:
   - Gemfile.lock
 
 
-  markdown: kramdown
+
