@@ -31,8 +31,4 @@ reward: false
 
 > 排名不分先后
 
-$\int$[Kiwisama](https://nyan.kiwi.cat/)$\int$
-
-$\int$[shinohara-rin](https://shinohara-rin.github.io/)$\int$
-
-$\int$[Tsez](https://blog.tse.moe/)$\int$
+$\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https://shinohara-rin.github.io/)$\int$    $\int$[Tsez](https://blog.tse.moe/)$\int$    $\int$[Siger](https://ml.yscale.cf/)$\int$
