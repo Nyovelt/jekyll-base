@@ -17,7 +17,7 @@ defaults:
 title: Canarypwn's Naïve Blog
 name: Canarypwn
 description: Stop talking , just coding.
-url:https://daniris.me
+url: https://daniris.me
 github: https://github.com/showzeng/Minimalism
 rss: true
 copyright_time: 2019
