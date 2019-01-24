@@ -15,7 +15,6 @@ reward: false
         });
     </script>
 </head>
-
 ## 关于作者
 
 ---
@@ -34,5 +33,6 @@ reward: false
 
 $\int$[Kiwisama](https://nyan.kiwi.cat/)$\int$
 
+$\int$[shinohara-rin](https://shinohara-rin.github.io/)$\int$
 
-
+$\int$[Tsez](https://blog.tse.moe/)$\int$
