@@ -99,7 +99,7 @@ INFO[0002] HTTP proxy listening at: 127.0.0.1:7890
 
 ### 一些错误及解决方法
 
-- 如果运行Clash后没有回应：尝试编辑config.yml
+- 如果运行Clash后没有回应：尝试编辑`config.yml`
 
 - 无法执行二进制文件：使用兼容ARM的Clash版本或重新编译
 
@@ -112,7 +112,7 @@ INFO[0002] HTTP proxy listening at: 127.0.0.1:7890
 使用方法：
 
 - [打开网页]([http://yacd.haishan.me](http://yacd.haishan.me/))
-- 填入配置（ip为树莓派所在的内网地址，例如`192.168.2.14`,端口为`8080`）
+- 填入配置（`ip`为树莓派所在的内网地址，例如`192.168.2.14`,端口为`config.yml`所设置的`8080`）
 - 完成
 
 ### 参考
