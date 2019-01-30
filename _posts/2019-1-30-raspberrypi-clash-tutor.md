@@ -117,7 +117,7 @@ INFO[0002] HTTP proxy listening at: 127.0.0.1:7890
 
 ### 参考
 
-[Linux 配置科学上网]: https://www.shangzongyu.com/post/tools/linux-over-gfw/
-[在树莓派上使用kone和clash]: https://beyondkmp.com/post/kone_clash/
-[Clash Linux 代理使用]: https://tech.viewv.top/2019/01/23/Clash-Linux.html
+- [Linux 配置科学上网](https://www.shangzongyu.com/post/tools/linux-over-gfw/)
 
+- [在树莓派上使用kone和clash]( https://beyondkmp.com/post/kone_clash/)
+- [Clash Linux 代理使用](https://tech.viewv.top/2019/01/23/Clash-Linux.html)
