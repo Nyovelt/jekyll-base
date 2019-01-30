@@ -22,3 +22,19 @@ excerpt: 描述了如何使用树莓派为整个局域网提供http代理来科�
 
 Clash 类似 IOS/Mac OS上的Surge，可以在提供SS/V2RAY代理的同时资瓷自定义的代理规则。
 
+
+
+### 编译
+
+虽然说[Clash](https://github.com/Dreamacro/clash)的项目主页说你可以通过
+
+```
+go get -u -v github.com/Dreamacro/clash
+```
+
+的方式构建，但是因为要去Google服务器上下载包而变得困难；项目主页的[预先构建](https://github.com/Dreamacro/clash/releases)并不支持ARM架构的树莓派，因此需要自行编译。
+
+这里[@shinohara-rin](https://github.com/shinohara-rin) 构建了 Clash-arm (v0.10.2) ，[点击这里](https://transfer.sh/V5YQg/clash)下载。
+
+### 配置
+
