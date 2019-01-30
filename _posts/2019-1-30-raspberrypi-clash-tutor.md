@@ -97,3 +97,25 @@ INFO[0002] HTTP proxy listening at: 127.0.0.1:7890
 
 到这里Clash算是正常运行了，[Github的项目主页](https://github.com/Dreamacro/clash)推荐使用PM2守护进程。
 
+### 一些错误及解决方法
+
+- 如果运行Clash后没有回应：尝试编辑config.yml
+
+- 无法执行二进制文件：使用兼容ARM的Clash版本或重新编译
+
+- 没有权限执行：用`chmod`命令赋权
+
+### 面板控制
+
+为了使用图形化的界面管理代理规则。我使用了[yacd面板](https://github.com/haishanh/yacd)
+
+使用方法：
+
+- [打开网页]([http://yacd.haishan.me](http://yacd.haishan.me/))
+- 填入配置（ip为树莓派所在的内网地址，例如`192.168.2.14`,端口为`8080`）
+- 完成
+
+### 参考
+
+[Linux 配置科学上网]: https://www.shangzongyu.com/post/tools/linux-over-gfw/
+
