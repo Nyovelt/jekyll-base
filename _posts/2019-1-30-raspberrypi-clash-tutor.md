@@ -1,7 +1,9 @@
 ---
 title: 在树莓派上配置Clash-linux
-date:  
+date:  2019-01-30 13:59:33 +0800
 category: Tech
 tags: 树莓派 Linux GFW 
 excerpt: 
 ---
+
+mark
