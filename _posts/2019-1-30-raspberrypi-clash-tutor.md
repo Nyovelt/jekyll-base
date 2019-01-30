@@ -26,13 +26,7 @@ Clash 类似 IOS/Mac OS上的Surge，可以在提供SS/V2RAY代理的同时资�
 
 ### 编译
 
-虽然说[Clash](https://github.com/Dreamacro/clash)的项目主页说你可以通过
-
-```bash
-go get -u -v github.com/Dreamacro/clash
-```
-
-的方式构建，但是因为要去Google服务器上下载包而变得困难；项目主页的[预先构建](https://github.com/Dreamacro/clash/releases)并不支持ARM架构的树莓派，因此需要自行编译。
+虽然说[Clash](https://github.com/Dreamacro/clash)的项目主页说你可以通过`go get -u -v github.com/Dreamacro/clash`的方式构建，但是因为要去Google服务器上下载包而变得困难；项目主页的[预先构建](https://github.com/Dreamacro/clash/releases)并不支持ARM架构的树莓派，因此需要自行编译。
 
 这里[@shinohara-rin](https://github.com/shinohara-rin) 构建了 Clash-arm (v0.10.2) ，[点击这里](https://transfer.sh/V5YQg/clash)下载。
 
@@ -64,5 +58,11 @@ FATA[0005] Parse config error: Configuration file /home/pi/.config/clash/config.
 
 这个时候需要编辑 `/home/pi/.config/clash/config.yml`
 
-> (由于我们把配置放到了默认的位置, 因此可以不用加 `-d` 参数, 可以使用 `clash` 直接启动, )
+(由于我们把配置放到了默认的位置, 因此可以不用加 `-d` 参数, 可以使用 `clash` 直接启动, )
+
+如下是我的配置（参考）
+
+```bash
+
+```
 
