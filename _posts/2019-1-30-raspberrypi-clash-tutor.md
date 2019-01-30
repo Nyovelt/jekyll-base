@@ -28,7 +28,7 @@ Clash 类似 IOS/Mac OS上的Surge，可以在提供SS/V2RAY代理的同时资�
 
 虽然说[Clash](https://github.com/Dreamacro/clash)的项目主页说你可以通过
 
-```
+```bash
 go get -u -v github.com/Dreamacro/clash
 ```
 
@@ -37,4 +37,10 @@ go get -u -v github.com/Dreamacro/clash
 这里[@shinohara-rin](https://github.com/shinohara-rin) 构建了 Clash-arm (v0.10.2) ，[点击这里](https://transfer.sh/V5YQg/clash)下载。
 
 ### 配置
+
+首先将clash文件移动/下载到树莓派的目录下，然后移动到 /usr/local/bin，并给予权限。
+```bash
+$sudo mv ./clash /usr/local/bin
+$chmod 555 /usr/local/bin
+```
 
