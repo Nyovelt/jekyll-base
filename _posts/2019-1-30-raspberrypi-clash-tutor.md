@@ -45,7 +45,7 @@ $chmod 555 /usr/local/bin
 
 ```bash
 #运行Clash
-clash
+$clash
 ```
 
 正常的话会提示
@@ -85,4 +85,15 @@ mode: Rule
 Proxy:
 #以下省略，由梯子的服务商提供
 ```
+
+如果没有问题，下面是回复
+
+```bash
+$ clash
+INFO[0002] RESTful API listening at: 0.0.0.0:8080
+INFO[0002] SOCKS proxy listening at: 127.0.0.1:7891
+INFO[0002] HTTP proxy listening at: 127.0.0.1:7890
+```
+
+到这里Clash算是正常运行了，[Github的项目主页](https://github.com/Dreamacro/clash)推荐使用PM2守护进程。
 
