@@ -38,9 +38,31 @@ go get -u -v github.com/Dreamacro/clash
 
 ### 配置
 
-首先将clash文件移动/下载到树莓派的目录下，然后移动到 /usr/local/bin，并给予权限。
+首先将clash文件移动/下载到树莓派的目录下，然后移动到 `/usr/local/bin`，并给予权限。
 ```bash
+# 把解压的二进制放到 /usr/local/bin 目录下
 $sudo mv ./clash /usr/local/bin
+
+#给予权限
 $chmod 555 /usr/local/bin
 ```
+
+关于配置方法，[Github的项目主页](https://github.com/Dreamacro/clash)有详细的说明，在这里简单说一下我的配置。
+
+```bash
+#运行Clash
+clash
+```
+
+正常的话会提示
+
+```bash
+INFO[0000] Can't find config, create a empty file
+INFO[0000] Can't find MMDB, start download
+FATA[0005] Parse config error: Configuration file /home/pi/.config/clash/config.yml is empty
+```
+
+这个时候需要编辑 `/home/pi/.config/clash/config.yml`
+
+> (由于我们把配置放到了默认的位置, 因此可以不用加 `-d` 参数, 可以使用 `clash` 直接启动, )
 
