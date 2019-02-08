@@ -6,7 +6,17 @@ tags: 影评
 excerpt: 我觉得我不会被并介开枪打死。
 ---
 
-
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
 在2018年的12月19号，就是那个一模考后发烧叛逃回家的日子里，我一边看完了《流浪地球》一边擦着鼻涕享受难得的不用去学校面对高三学习的日子。
 
