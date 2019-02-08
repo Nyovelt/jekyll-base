@@ -1,7 +1,7 @@
 ---
 title: 在树莓派上配置Clash-linux
 date:  2019-01-30 13:59:33 +0800
-category: Tech
+category: Technology
 tags: 树莓派 Linux GFW 
 excerpt: 树莓派把家里的灰都吸走啦！
 ---
