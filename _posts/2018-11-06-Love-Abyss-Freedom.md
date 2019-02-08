@@ -70,5 +70,6 @@ excerpt: 贯彻爱与真实的邪恶，可爱又迷人的反派角色，我们�
 
  
 
-主要参考：[神的意识形态](https://www.zhihu.com/people/mei-you-cun-zai-gan/activities)
+> 主要参考：[神的意识形态](https://www.zhihu.com/people/mei-you-cun-zai-gan/activities)
+>
 
