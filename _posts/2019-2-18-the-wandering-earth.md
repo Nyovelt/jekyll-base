@@ -3,7 +3,7 @@ title: 《流浪地球》影评
 date:  2019-02-08 0:54:34 +0800
 category: Literature
 tags: 影评 
-excerpt: 我觉得我不会被并介开枪打死。
+excerpt: 我觉得我不会被[并介]开枪打死。
 ---
 
 <head>
@@ -52,4 +52,13 @@ excerpt: 我觉得我不会被并介开枪打死。
 
 
 
+> [文体不限诗歌除外](https://mp.weixin.qq.com/s/IhZM9uPp0ATQh2DX21iNPA)
+
+
+
 ![](https://pic.superbed.cn/item/5c5d0d765f3e509ed900c82a)
+
+
+
+
+
