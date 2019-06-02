@@ -16,12 +16,12 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 ## CET-6 Vocabulary Lists
 
 | List1 |      |
-| :-: | :-: |
+|--| -- |
 | imply | 暗示 |
 | corresponding | 符合的 |
 
 | List2 |        |
-| :-: | :-: |
+| -- | -- |
 |  |        |
 |  |      |
 |       |      |
