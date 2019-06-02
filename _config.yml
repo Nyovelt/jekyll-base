@@ -21,6 +21,7 @@ url: https://daniris.me
 github: https://github.com/showzeng/Minimalism
 rss: true
 copyright_time: 2019
+remote_theme: showzeng/Minimalism
 
 plugins:
   - rouge
