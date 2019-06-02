@@ -13,7 +13,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 
   
 
-## CET-6 Vocaburary Lists
+## CET-6 Vocabulary Lists
 
 
 
