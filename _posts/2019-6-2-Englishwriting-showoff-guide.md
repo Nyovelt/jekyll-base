@@ -69,7 +69,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |descend| v.下降  (descent n.)|
 |ascend| 上升 (ascent)|
 |exceed|超过 =surpass|
-|initiate|开始，创造，启蒙，发动|
+|initiate|开始，创造，发动，启蒙->illuminate=enlighten|
 |exclusive,exclusively|=merely|
 |prevalent a. =popular|prevailing =outstanding/widespread|
 |tackle |=deal with =cope up with|
@@ -91,7 +91,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |:-:|:-:|
 |evident|明显的|
 |manifest|表明|
-|diminish|=reduce|
+|diminish|=reduce=minimize|
 |impulse|冲动|
 |overwhelming|势不可挡的|
 |be bound to|注定|
@@ -105,9 +105,9 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |considerable|大量的=gross=substantial|
 |decent|=appropriate|
 |precise|=accurate|
-|inner|=internal=inside|
+|inner|=internal=inside=intrinstic|
 |facilitate sb. to do|使便利|
-|respective|=individual|
+|respective|=individual=subjective|
 
 |List 10||
 |:-:|:-:|
@@ -127,7 +127,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |multiple|多重的|
 |tolerance|宽容 n.|
 |thrive| v. 兴旺繁荣|
-|hamper|阻碍=hinder=interfere|
+|hamper|阻碍=hinder=interfere=intervene|
 |in harmony with|与...和谐相处|
 
 |List 12||
@@ -147,6 +147,19 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |jeopardize|v.危害 >endanger|
 |vice|n. 恶习|
 |peak|峰值|
+
+|List 13||
+|:-:|:-:|
+|readily|容易的|
+|liberal|自由主义的 e.g. liberal arts|
+|be bewildered by|被...诱惑|
+|curb|约束=inhibit|
+|undergo|经历|
+|aggravate|加重，加剧|
+|command attention|博得关注|
+|liability|责任（正式）|
+
+
 
 
 
