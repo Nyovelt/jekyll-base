@@ -28,7 +28,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |:-:|:-:|
 |approach|=key=solution|
 |factor|因素|
-|disease|=contagions=epedemic|
+|disease|=contagious=epedemic=infectous|
 |account for|解释|
 |on account of|=because|
 |vital|=important|
@@ -62,7 +62,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |anticipate|=expect|
 |trade deflict/surplus|贸易逆差/顺差|
 |conserve|养护=maintain, 保护|
-|sophisticated| =complex 尖端复杂的|
+|sophisticated| =complex 尖端复杂的 = elaborate 精心制作的|
 
 |List 6||
 |:-:|:-:|
@@ -83,7 +83,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |be intent on doing|热衷于|
 |acknowlegde|承认，确认，答谢|
 |entensive|广泛的|
-|substantial|表面上的=superficial|
+|substantial|表面上的=superficial=seemingly|
 |artificial|=synthetic|
 |magnify|=overstate=exaggerate|
 
@@ -159,6 +159,17 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |command attention|博得关注|
 |liability|责任（正式）|
 
+|List 14||
+|:-:|:-:|
+|soar|猛增|
+|be sympathetic to/towards|资瓷，同情|
+|In vain+倒装|=否定词句首|
+|eccentric|a. 古怪的，不同寻常的|
+|realistic|现实可行的|
+|reap|得到|
+|threshold|临界值，起始点|
+|I reckon|=I think|
+|genuine|真正的|
 
 
 
