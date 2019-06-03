@@ -9,7 +9,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 ### 前言
 
 
-- 用一些高级且没有必要的高级词汇和自以为地道的表述来为自己的英语作文增添色彩。
+- 用一些高级到没有必要的高级词汇和自以为地道的表述来为自己的英语作文增添色彩。
 
   
 
@@ -22,6 +22,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 | :-: | :--: |
 | imply | 暗示 |
 | corresponding | 符合的 |
+|indispensable|>=necessary,essential|
 
 |List2||
 |:-:|:-:|
@@ -82,7 +83,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |be intent on doing|热衷于|
 |acknowlegde|承认，确认，答谢|
 |entensive|广泛的|
-|substantial|表面上的|
+|substantial|表面上的=superficial|
 |artificial|=synthetic|
 |magnify|=overstate=exaggerate|
 
@@ -101,7 +102,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |It's a paradox that...||
 |shed tears|声泪俱下|
 |by virtue of|借助|
-|considerable|大量的=gross|
+|considerable|大量的=gross=substantial|
 |decent|=appropriate|
 |precise|=accurate|
 |inner|=internal=inside|
@@ -126,8 +127,26 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |multiple|多重的|
 |tolerance|宽容 n.|
 |thrive| v. 兴旺繁荣|
-|hamper|阻碍=hinder|
+|hamper|阻碍=hinder=interfere|
 |in harmony with|与...和谐相处|
+
+|List 12||
+|:-:|:-:|
+|perpetual|永恒的|
+|recall|回忆|
+|absurd|荒谬的|
+|adversity|逆境|
+|considerate|考虑周到的|
+|highlight|强调突出|
+|remedy|疗法，补救方法|
+|misfortune|不幸|
+|portray|描绘（图片作文，复数portrays)|
+|simultaneous|=at the same time|
+|contend|主张|
+|controversial|a. 引起争议的，有争论的|
+|jeopardize|v.危害 >endanger|
+|vice|n. 恶习|
+|peak|峰值|
 
 
 
