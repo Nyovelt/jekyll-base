@@ -47,7 +47,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |virtual|实质上的|
 |for intance|例如|
 |concequently|=so因此|
-|attribute to|=boil down to=put sth. down to|
+|attribute to|=boil down to=put sth. down to = ascribe to|
 |fundamentally|根本上的|
 |have an insight into sth.|对...有深入了解|
 |one's outlook on life||
@@ -57,6 +57,40 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |grant|=give|
 |contract|=infect|
 |preserve|保护=conserve ,腌制 e.g. preserved fruit|
+|have a profound effect on|对...有深度的影响|
+|anticipate|=expect|
+|trade deflict/surplus|贸易逆差/顺差|
+|conserve|养护=maintain, 保护|
+|sophisticated| =complex 尖端复杂的|
+
+|List 6||
+|:-:|:-:|
+|descend| v.下降  (descent n.)|
+|ascend| 上升 (ascent)|
+|exceed|超过 =surpass|
+|initiate|开始，创造，启蒙，发动|
+|exclusive,exclusively|=merely|
+|prevalent a. =popular|prevailing =outstanding/widespread|
+|tackle |=deal with =cope up with|
+|conventional|=normal=traditional|
+|distinct|=unique|
+|under no circumstances|无论如何不|
+|in spite of|尽管|
+
+|List 7||
+|:-:|:-:|
+|be intent on doing|热衷于|
+|acknowlegde|承认，确认，答谢|
+|entensive|广泛的|
+|substantial|表面上的|
+|artificial|=synthetic|
+|magnify|=overstate=exaggerate|
+
+|List8||
+|evident|明显的|
+|manifest|表明|
+|diminish|=reduce|
+
 
 
 
