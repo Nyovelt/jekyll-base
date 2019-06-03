@@ -35,7 +35,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 
 |List3||
 |:-:|:-:|
-|enormous|=vast|
+|enormous|=vast=numerous=tremendous=massive|
 |majority|大多数|
 |drastic|激烈=fierce|
 |convey|=express|
@@ -87,11 +87,37 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |magnify|=overstate=exaggerate|
 
 |List8||
+|:-:|:-:|
 |evident|明显的|
 |manifest|表明|
 |diminish|=reduce|
+|impulse|冲动|
+|overwhelming|势不可挡的|
+|be bound to|注定|
+|initial|最初|
 
+|List9||
+|:-:|:-:|
+|It's a paradox that...||
+|shed tears|声泪俱下|
+|by virtue of|借助|
+|considerable|大量的=gross|
+|decent|=appropriate|
+|precise|=accurate|
+|inner|=internal=inside|
+|facilitate sb. to do|使便利|
+|respective|=individual|
 
+|List 10||
+|:-:|:-:|
+|assert|=claim|
+|cherish|=value珍视|
+|manifest|=show昭示|
+|predominant|优越的，有力的=effective|
+|defect|缺点=drawback=shortcoming=flaw|
+|testify|作证=indicate|
+|infant|=naïve|
+|intricate|=complex|
 
 
 
