@@ -19,10 +19,21 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 
 
 | List1|  |
-| -- | :--: |
+| :-: | :--: |
 | imply | 暗示 |
 | corresponding | 符合的 |
-| 管线 | \$1 |
+
+|List2||
+|:-:|:-:|
+|approach|=key=solution|
+|factor|因素|
+|disease|=contagions=epedemic|
+|account for|解释|
+|on account of|=because|
+|vital|=important|
+|sufficient|=adequate|
+
+
 
 
 
