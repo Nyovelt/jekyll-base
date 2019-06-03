@@ -119,6 +119,15 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |infant|=naïve|
 |intricate|=complex|
 
+|List 11||
+|:-:|:-:|
+|optimism乐观主义|optimist乐天派|
+|find a niddle in a hay stack|大海捞针|
+|multiple|多重的|
+|tolerance|宽容 n.|
+|thrive| v. 兴旺繁荣|
+|hamper|阻碍=hinder|
+|in harmony with|与...和谐相处|
 
 
 
