@@ -35,7 +35,7 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 
 |List3||
 |:-:|:-:|
-|enormous|=|
+|enormous|=vast|
 |majority|大多数|
 |drastic|激烈=fierce|
 |convey|=express|
@@ -48,7 +48,16 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |for intance|例如|
 |concequently|=so因此|
 |attribute to|=boil down to=put sth. down to|
-|fundamental
+|fundamentally|根本上的|
+|have an insight into sth.|对...有深入了解|
+|one's outlook on life||
+|ultimate,ultimatly|极致的|
+|wheras|=while 然而|
+|valid 有效的|invalid ant.|
+|grant|=give|
+|contract|=infect|
+|preserve|保护=conserve ,腌制 e.g. preserved fruit|
+
 
 
 
