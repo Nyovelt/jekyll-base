@@ -33,6 +33,23 @@ excerpt: 如何用高级词汇与句型假装自己很有水平
 |vital|=important|
 |sufficient|=adequate|
 
+|List3||
+|:-:|:-:|
+|enormous|=|
+|majority|大多数|
+|drastic|激烈=fierce|
+|convey|=express|
+|pessimestic|悲观的|
+|object to|=be opposed to|
+
+|List 4-5||
+|:-:|:-:|
+|virtual|实质上的|
+|for intance|例如|
+|concequently|=so因此|
+|attribute to|=boil down to=put sth. down to|
+|fundamental
+
 
 
 
