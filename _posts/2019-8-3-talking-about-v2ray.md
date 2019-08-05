@@ -1,6 +1,6 @@
 ---
-title:  也谈
-date:  2019-08-04 21:09:33 +0800
+title: 也谈科学上网
+date: 2019-08-04 21:09:35 +0800
 category: Technology
 tags: GFW Linux
 excerpt: 这条线路又双叒叕挂了
