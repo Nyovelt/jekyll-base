@@ -247,3 +247,6 @@ Y
 此处以`Quantumult`和`Clash`为例
 
 ![IMG_0965 (2)](\assets\img\2019\IMG_0965 (2).png)
+
+![clash](\assets\img\2019\clash.png)
+
