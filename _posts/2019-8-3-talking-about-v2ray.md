@@ -27,7 +27,7 @@ excerpt: 这条线路又双叒叕挂了
 
 ### 配置
 
-俺比较懒，使用了[233boy](https://github.com/233boy)的一键脚本。
+俺比较懒，使用了[233boy](https://github.com/233boy)的[一键脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)。
 
 首先运行命令**（以root模式运行）**
 
@@ -250,3 +250,10 @@ Y
 
 ![clash](\assets\img\2019\clash.png)
 
+
+
+
+
+### 参考
+- [V2Ray一键安装脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
+- [WebSocket+TLS+Web](https://toutyrater.github.io/advanced/wss_and_web.html)
