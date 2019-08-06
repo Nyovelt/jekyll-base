@@ -25,10 +25,28 @@ excerpt: 这条线路又双叒叕挂了
 
 
 
-### 步骤
+### 配置
 
-​				俺比较懒，使用了[233boy](https://github.com/233boy)的一键脚本。
+俺比较懒，使用了[233boy](https://github.com/233boy)的一键脚本。
 
-​				
+首先运行命令**（以root模式运行）**
 
-​		
+```shell
+	sudo su
+	bash <(curl -s -L https://git.io/v2ray.sh)
+```
+接着会出现
+
+  ```shell
+    ........... V2Ray 一键安装脚本 & 管理脚本 by 233v2.com ..........
+    
+    帮助说明: https://233v2.com/post/1/
+    
+    搭建教程: https://233v2.com/post/2/
+    
+    1. 安装
+    2. 卸载
+  ```
+
+
+
