@@ -27,7 +27,7 @@ excerpt: 这条线路又双叒叕挂了
 
 ### 配置
 
-俺比较懒，使用了[233boy](https://github.com/233boy)的一键脚本。
+俺比较懒，使用了[233boy](https://github.com/233boy)的一键脚本，使用Xshell连接服务器，服务器为GCP-Taiwan。
 
 首先运行命令**（以root模式运行）**
 
@@ -184,9 +184,9 @@ Y
 
  V2Ray 传输协议 = WebSocket + TLS
 
- V2Ray 端口 = 344
+ V2Ray 端口 =  your port
 
- 你的域名 = v.aaaab3n.co
+ 你的域名 =  your domain
 
  域名解析 = 我确定已经有解析了
 
