@@ -209,5 +209,41 @@ Y
 
 本脚本会自动安装bbr单边加速
 
+完成之后便可查看配置信息
 
 
+
+```shell
+
+---------- V2Ray 配置信息 -------------
+
+ 地址 (Address) = your domain
+
+ 端口 (Port) = 443
+
+ 用户ID (User ID / UUID) =  your uuid
+
+ 额外ID (Alter Id) = 233
+
+ 传输协议 (Network) = ws
+
+ 伪装类型 (header type) = none
+
+ 伪装域名 (host) = your domain
+
+ 路径 (path) = /
+
+ TLS (Enable TLS) = 打开
+
+ 备注: 广告拦截已开启..
+
+---------- END -------------
+```
+
+
+
+### 连接
+
+此处以`Quantumult`和`Clash`为例
+
+![IMG_0965 (2)](\assets\img\2019\IMG_0965 (2).png)
