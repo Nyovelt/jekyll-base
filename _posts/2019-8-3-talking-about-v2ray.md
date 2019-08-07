@@ -16,6 +16,7 @@ excerpt: 这条线路又双叒叕挂了
 ### CAUTION
 
 - 本文具有时效性
+- **使用脚本有一定风险性，请阅读源码后食用**
 
 
 
@@ -252,7 +253,13 @@ Y
 
 
 
+### One More Thing
 
+- [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
+- [Quantumult](https://apps.apple.com/us/app/quantumult/id1252015438)
+- 由于TLS的特性，vps时区调到和本地一样还要校准时间。
+- 注意检查server防火墙的设置
+- **注意风险**
 
 ### 参考
 - [V2Ray一键安装脚本](https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC)
