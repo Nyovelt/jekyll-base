@@ -19,9 +19,9 @@ reward: false
 
 
 
-## [服务器监控](status.aaaab3n.co)
+## 服务器监控
 
-
+[点击这里](https://status.aaaab3n.co)
 
 ## 友链
 
