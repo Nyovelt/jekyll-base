@@ -17,6 +17,26 @@ reward: false
 </head>
 ## 关于作者
 
+```C
+void aboutMe(){
+    name: nyovelt
+    nickname: Canarypwn
+    age: 17(permanent)
+    location: Shanghai
+    V2ex: @Wondertainment
+    豆瓣：Nyovelt
+	酷安: moe_canary
+    Ingress: @SCPDrKondraki
+    
+    tags:
+    	Programer 立志成为全栈工程师
+        Paradox 玩家 - 大奸大恶之人
+        齐泽克作品读者 拉康精神分析与黑格尔主义爱好者
+        ACGN爱好者
+        支持并实践泛jk主义，即，穿上jk制服的就是jk（逃
+}
+```
+
 
 
 ## 服务器监控
