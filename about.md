@@ -29,6 +29,7 @@ void aboutMe(){
     Ingress: @SCPDrKondraki
     
     tags:
+    	INTP
     	Programer 立志成为全栈工程师
         Paradox 玩家 - 大奸大恶之人
         齐泽克作品读者 拉康精神分析与黑格尔主义爱好者
