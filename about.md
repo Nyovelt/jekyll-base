@@ -17,7 +17,7 @@ reward: false
 </head>
 ## 关于作者
 
-```C
+```bash
 void aboutMe(){
     name: nyovelt
     nickname: Canarypwn
