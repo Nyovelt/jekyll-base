@@ -1,0 +1,12 @@
+---
+title: 编译时在做什么？有没有空？可以来拯救吗？
+date: 2019-11-29 12:55:35 +0800
+category: Technology
+tags: C/C++ 黑魔法
+excerpt: 是...是神奇的黑魔法呢
+---
+
+
+
+## TODO
+
