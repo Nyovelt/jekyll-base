@@ -19,7 +19,7 @@ excerpt: 是...是神奇的黑魔法呢
 
 
 
-![1575551248676](https://sm.ms/image/xXSCbpR1ckPz79W)
+![1575551248676.png](https://i.loli.net/2019/12/05/xXSCbpR1ckPz79W.png)
 
 
 
