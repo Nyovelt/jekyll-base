@@ -140,9 +140,8 @@ Stackoverflow 直译过来就是堆栈溢出 XD
 
 ![unsigned_ll_output](/assets/img/2019/Workshop/unsigned_ll_output.png)
 
-虽然我们可以确保20以内的阶乘的值
+虽然我们可以确保20以内的阶乘的值是精确的（事实上`21!`就出现问题了，而且因为 `unsigned long long` 没有符号位的特性，和int不一样，它不是负数，而是看似正确的一个极大的正数）。但是在算组合数的依旧值得注意“`算术溢出`”的问题。
 
-是精确的（事实上`21!`就出现问题了，而且因为 `unsigned long long` 没有符号位的特性，和int不一样，它不是负数，而是看似正确的一个极大的正数）。但是在算组合数的依旧值得注意“`算术溢出`”的问题。
 $$
 C_{40}^{20} = \frac{40!}{20!20!}
 $$
@@ -204,4 +203,3 @@ $$
 - [Rin](https://github.com/shinohara-rin)
 - [Tsez](https://github.com/Tsezz)
 - [中国珂学院](https://www.chtholly.ac.cn/)
-
