@@ -84,9 +84,11 @@ $ gcc -S helloworld.c -Og -masm=intel
 
  
 
-- -S 表示输出汇编程序   
+- gcc 代表使用的编译器， gcc编译C files, g++编译 Cpp files， 类似的还有clang 和 clang++)
 
-- -Og是编译器的优化等级，让编译器不要做过多的优化，随着编译技术的提升，现在编译器几乎等于已经把你的程序重新写一遍了   
+- -S 表示输出汇编程序   （-o表示生成可执行文件）
+
+- -Og是编译器的优化等级，让编译器不要做过多的优化，随着编译技术的提升，现在编译器几乎等于已经把你的程序重新写一遍了  （类似的还有 -O2 -O1)
 
 - -masm=intel 表示使用intel的语法，便于理解 
 
@@ -185,16 +187,21 @@ $$
 ## 参考
 
 1. [Why 2147483647 + 1 is actually -2147483648?](https://stackoverflow.com/questions/48160580/why-2147483647-1-is-actually-2147483648)
+
 2. [Understanding the Stack](https://www.youtube.com/watch?v=pOOivAJ63DM)
-3.  [汇编可视化](https://godbolt.org/ )
-4.  [栈缓冲区溢出](https://zh.wikipedia.org/wiki/%E6%A0%88%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA)
-5.  [字节序](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F) 
 
+3. [汇编可视化](https://godbolt.org/ )
 
+4. [栈缓冲区溢出](https://zh.wikipedia.org/wiki/%E6%A0%88%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA)
+
+5. [字节序](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F) 
+
+   
 
 ## 感谢
 
 - [Geekpie Association](https://github.com/ShanghaitechGeekPie)
 - [Rin](https://github.com/shinohara-rin)
 - [Tsez](https://github.com/Tsezz)
+- [中国珂学院](https://www.chtholly.ac.cn/)
 
