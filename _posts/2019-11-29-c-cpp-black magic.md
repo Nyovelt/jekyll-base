@@ -26,11 +26,11 @@ excerpt: 是...是神奇的黑魔法呢
 
 C作为一门不会对内存检查的语言，因此很多的操作会超出一个变量的边界去影响下一个变量，举一个例子：
 
-![pwn](/assets/img/2019/Workshop/pwn.png)
+![pwn](/assets/img/2019/Workshop/pwn.png)		
 
-​			
+有没有什么办法来改变变量`modified`的值呢？
 
-同时输入10个A 和11个A 来康康结果：
+可以同时输入10个A 和11个A 来康康结果：
 
 
 
@@ -38,13 +38,13 @@ C作为一门不会对内存检查的语言，因此很多的操作会超出一�
 
 
 
-`buffer[10]` 开辟了10个字节的内存空间，当我们输入了10个A以后，`buffer[10]`的内存空间被用完了，而gets()函数并不会对空间的边界进行检查，所以当第11个A输入了以后，A被挤到了`(int)modified`的内存空间，所以原本是0的`modified`不再是0（实际上modified的值 是 A的askll值 `65` ）
+可以看到，`modified`的值被改变了，原因在于`buffer[10]` 开辟了10个字节的内存空间，当我们输入了10个A以后，`buffer[10]`的内存空间被用完了，而gets()函数并不会对空间的边界进行检查，所以当第11个A输入了以后，A被挤到了`(int)modified`的内存空间，所以原本是0的`modified`不再是0（实际上modified的值 是 A的askll值 `65` ）<del>所以gets非常不安全</del>
 
 
 
 一般情况下，数据在计算机内部是这样存储的：
 
-​			 ![Big-Endian.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Big-Endian.svg/280px-Big-Endian.svg.png) 
+​			 ![Big-Endian.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Little-Endian.svg/560px-Little-Endian.svg.png) 
 
 而在这个具体的例子中：内存空间（栈）是这样的：
 
@@ -52,7 +52,7 @@ C作为一门不会对内存检查的语言，因此很多的操作会超出一�
 
 
 
-
+可以看出，内存的排列顺序是自下而上的，或者说叫做`小端序`。将会有一个叫做栈指针的指针指向当前的内存并对内存进行操作。
 
 ##   空の上の森の中の 
 
@@ -177,9 +177,8 @@ $$
 ## 参考
 
 1. [Why 2147483647 + 1 is actually -2147483648?](https://stackoverflow.com/questions/48160580/why-2147483647-1-is-actually-2147483648)
-
 2. [Understanding the Stack](https://www.youtube.com/watch?v=pOOivAJ63DM)
-
-3.  [在线汇编编译](https://godbolt.org/ )
+3.  [汇编可视化](https://godbolt.org/ )
 4.  [栈缓冲区溢出](https://zh.wikipedia.org/wiki/%E6%A0%88%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA)
+5.  [字节序](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F) 
 
