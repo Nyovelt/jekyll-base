@@ -54,6 +54,14 @@ C作为一门不会对内存检查的语言，因此很多的操作会超出一�
 
 可以看出，内存的排列顺序是自下而上的，或者说叫做`小端序`。将会有一个叫做栈指针的指针指向当前的内存并对内存进行操作。
 
+
+
+所以“烫烫烫”实际上就是[Microsodt VC]( https://aka.ms/pill ) 在 debug 模式下 将未使用的内存空间全部填入 `0xCC` ， 而在GBK内码下（类似askll码 ， 将二进制数 转化为中文字符 ）， `0xCCCC` 对应的中文字符就是 `烫` 
+
+
+
+![hot](\assets\img\2019\Workshop\hot.jpg)
+
 ##   空の上の森の中の 
 
 所以编译器到底在干什么？
@@ -181,4 +189,12 @@ $$
 3.  [汇编可视化](https://godbolt.org/ )
 4.  [栈缓冲区溢出](https://zh.wikipedia.org/wiki/%E6%A0%88%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA)
 5.  [字节序](https://zh.wikipedia.org/wiki/%E5%AD%97%E8%8A%82%E5%BA%8F) 
+
+
+
+## 感谢
+
+- [Geekpie Association](https://github.com/ShanghaitechGeekPie)
+- [Rin](https://github.com/shinohara-rin)
+- [Tsez](https://github.com/Tsezz)
 
