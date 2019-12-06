@@ -26,7 +26,7 @@ excerpt: 是...是神奇的黑魔法呢
 
 C作为一门不会对内存检查的语言，因此很多的操作会超出一个变量的边界去影响下一个变量，举一个例子：
 
-![pwn](assets/img/2019/Workshop/pwn.png)
+![pwn](/assets/img/2019/Workshop/pwn.png)
 
 ​			
 
