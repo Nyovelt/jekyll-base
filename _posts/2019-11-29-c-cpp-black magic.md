@@ -34,7 +34,7 @@ C作为一门不会对内存检查的语言，因此很多的操作会超出一�
 
 
 
-![pwn_output](C:\Users\Nyove\Desktop\Demostration\pwn\pwn_output.png)
+![pwn_output](/assets/img/2019/Workshop/pwn_output.png)
 
 
 
@@ -42,9 +42,15 @@ C作为一门不会对内存检查的语言，因此很多的操作会超出一�
 
 
 
+一般情况下，数据在计算机内部是这样存储的：
+
 ​			 ![Big-Endian.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Big-Endian.svg/280px-Big-Endian.svg.png) 
 
-<img src="C:\Users\Nyove\Desktop\Demostration\pwn\demo.jpg" alt="demo" style="zoom:50%;" />
+而在这个具体的例子中：内存空间（栈）是这样的：
+
+<img src="/assets/img/2019/Workshop/demo.jpg" alt="demo" style="zoom:50%;" />
+
+
 
 
 
@@ -82,11 +88,11 @@ $ gcc -S helloworld.c -Og -masm=intel
 
 然后就可以得到汇编代码
 
-![hello_s](C:\Users\Nyove\Desktop\Demostration\hello\hello_s.png)
+![hello_s](/assets/img/2019/Workshop/hello_s.png)
 
 我们关注其中的几行：
 
-![hello_s_1](C:\Users\Nyove\Desktop\Demostration\hello\hello_s_1.png)
+![hello_s_1](/assets/img/2019/Workshop/hello_s_1.png)
 
 简单的说，
 
@@ -106,23 +112,23 @@ Stackoverflow 直译过来就是堆栈溢出 XD
 
 ##  帰らぬ者と、待ち続けた者たち 
 
-![sheep](C:\Users\Nyove\Desktop\Demostration\fractorial\sheep.jpg)
+![sheep](/assets/img/2019/Workshop/sheep.jpg)
 
 ​		正如前文所指出的，C并没有边界检查，C也不是一门高精度语言，所以在做大数运算的时候会导致精度丢失，数据溢出等问题。比如上图所展示的那样，int型最高位是符号位，所以当达到int的最大值的时候符号位由表示正数的0变为表示复数的1，并且由于用补码储存的缘故，得到了如图所示的输出。
 
-![int++](C:\Users\Nyove\Desktop\Demostration\fractorial\int++.png)
+![int++](/assets/img/2019/Workshop/int++.png)
 
 ​		有时候我们会在程序中用到很大的数字，比如算组合数的时候有些程序会使用阶乘来计算。当n过大的时候，有时候阶乘算出来就不怎么准确了。
 
-![int](C:\Users\Nyove\Desktop\Demostration\fractorial\int.png)
+![int](/assets/img/2019/Workshop/int.png)
 
-![int_output](C:\Users\Nyove\Desktop\Demostration\fractorial\int_output.png)
+![int_output](/assets/img/2019/Workshop/int_output.png)
 
 当然，你可以用尽最大的数据类型，甚至舍弃符号位，用`unsigned long long` 的数据类型（也就是夸张的0 ~ 2^64 ，八字节），但是问题实际上并没有解决。
 
-![unsigned_ll](C:\Users\Nyove\Desktop\Demostration\fractorial\unsigned_ll.png)
+![unsigned_ll](/assets/img/2019/Workshop/unsigned_ll.png)
 
-![unsigned_ll_output](C:\Users\Nyove\Desktop\Demostration\fractorial\unsigned_ll_output.png)
+![unsigned_ll_output](/assets/img/2019/Workshop/unsigned_ll_output.png)
 
 虽然我们可以确保20以内的阶乘的值
 
@@ -138,15 +144,15 @@ $$
 
 在Mid-Term中有这么一道题：
 
-![union](C:\Users\Nyove\Desktop\Demostration\union\union.png)
+![union](/assets/img/2019/Workshop/union.png)
 
 汇编结果是：
 
-![union_s](C:\Users\Nyove\Desktop\Demostration\union\union_s.png)
+![union_s](/assets/img/2019/Workshop/union_s.png)
 
 可以用动图解释：
 
-![union](C:\Users\Nyove\Desktop\Demostration\union\union.gif)
+![union](/assets/img/2019/Workshop/union.gif)
 
 ##  どうか、忘れないで 
 
