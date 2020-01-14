@@ -6,6 +6,8 @@ tags: Linux
 excerpt: 踩了无数的坑...
 ---
 
+
+
 ## 0x00 缘起
 
 在2019年的某天深夜，所有信院的同学的突然惊恐的发现，交作业的OJ上不去了。<del>然后欣喜的在第二天接到了ddl延期的通知</del>作为社团运维组的一员，发现罪魁祸首是...Azure欠费了。
@@ -25,13 +27,14 @@ excerpt: 踩了无数的坑...
 > 该OJ已开源，详见 https://oj.geekpie.club/about  <del>顺便求star</del>
 
 
+
 ## 0x01 服务器架构
 
 出于轻量化和弹性化的考虑，我们社团的服务器集群管理用的是 Rancher 1.6 ，所有的服务是纯docker的，我们会分装到docker里，上传到代码托管平台，由CI服务自动build完放到私有registry里，再通过rancher提供给其它服务器使用。
 
 
 
-所有的服务器通过zerotier组成内网，通过zerotier内网访问。
+所有的服务器通过 zerotier 组成内网，通过 zerotier 内网访问。
 
 
 
@@ -53,3 +56,8 @@ excerpt: 踩了无数的坑...
 
 
 现在的工作是将 Azure 迁移至 Aliyun ，并保证所有服务都可用。
+
+
+
+## 0x02 阿里云官方迁移工具
+
