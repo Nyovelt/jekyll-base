@@ -30,7 +30,7 @@ excerpt: 踩了无数的坑...
 
 ## 0x01 服务器架构
 
-出于轻量化和弹性化的考虑，我们社团的服务器集群管理用的是 Rancher 1.6 ，所有的服务是纯docker的，我们会分装到docker里，上传到代码托管平台，由CI服务自动build完放到私有registry里，再通过rancher提供给其它服务器使用。
+出于轻量化和弹性化的考虑，我们社团的服务器集群管理用的是 Rancher 1.6 ，所有的服务是纯docker的，我们会封装到docker里，上传到代码托管平台，由CI服务自动build完放到私有registry里，再通过rancher提供给其它服务器使用。
 
 
 
@@ -130,7 +130,7 @@ excerpt: 踩了无数的坑...
 
 #### 解决方案 
 
-某天周五放学去了离学校只有10分钟走路程的叠境，用叠镜的钱加了系统盘，顺便配置了一下防火墙。
+某天周五放学去了离学校只有10分钟走路程的叠境，用叠镜的钱加了系统盘，顺便配置了一下防火墙 ( Remark : Zerotier 需要`9000`以上端口的UDP通信 ) 。
 
 <del>然后发现迁移过程中烧掉的流量钱可以扩好几次硬盘了</del>
 
@@ -143,6 +143,24 @@ excerpt: 踩了无数的坑...
 
 ## 0x03 Rancher的启动与Zerotier
 
+### 坑点二 Zerotier
+
+由于阿里云的机器是由Azure迁移过去的，所以两者的Zerotier NodeID是一样的。对于Zerotier来说，它只负责建立两者之间的路由，因此你无法判断你到某个阿里云的内网ip会落到阿里云还是Azure。并且这个路由并不能有效的强制刷新解决。造成了相当程度的内网混乱。
+
+通过**更改NodeID**解决了这个问题。
+
+同时，对于迁移的服务器可以重新配置一个新的内网ip，等完全迁移完成之后改一下ip就行。
 
 
-To be continued ... 
+
+### 坑点三 MySQL
+
+对于数据库的复制，要注意权限的对应。如果文件的属性不一样，mysql就可能跑不起来。刚迁移完时，docker跑了五个服务(rancher/server, nginx, ldap, phpmyadmin, mysql) ，其中 MySQL不断重启。
+
+
+
+对于rancher来说，分为rancher/server 和 rancher/agent 。 在Rancher 1.6， 所有的数据都被存在数据库中。包括各rancher/agent 的配置。rancher/agent只需要运行 `sudo docker run -e CATTLE_AGENT_IP="[Rancher ip]"  --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.11 [Rancher domain/ip + id]`就能加入集群。同样的，agent的配置(比如agent里面的docker和环境变量也存在server的数据库中)。只需要再次运行该命令就能重新拉起agent。
+
+由于docker的临时性质（在docker里面的文件会随着docker的结束而结束），我们做了一个映射，将数据映射到`/data`目录，来保存数据库等信息。
+
+因此通过**再一次完整的复制**`/data`解决。
