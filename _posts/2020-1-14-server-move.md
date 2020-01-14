@@ -75,7 +75,7 @@ excerpt: 踩了无数的坑...
 
 我的配置是这样的：
 
-```
+```json
 {
     "access_id": "YourAccessKeyID",
     "secret_key": "YourAccessKeySecret",
@@ -137,4 +137,9 @@ excerpt: 踩了无数的坑...
 <del>原来叠境离学校这么近，果然我们是叠境附属学院</del>
 
 <del>贫穷限制了我的想象</del>
+
+
+
+
+## 0x03 Rancher的启动与Zerotier
 
