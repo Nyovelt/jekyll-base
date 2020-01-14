@@ -24,7 +24,7 @@ excerpt: 踩了无数的坑...
 
 > OJ为社团自建，向全校学生提供服务。 
 >
-> 该OJ已开源，详见 https://oj.geekpie.club/about  <del>顺便求star</del>
+> 该OJ已开源，详见 [https://oj.geekpie.club/about](https://oj.geekpie.club/about )  <del>顺便求star</del>
 
 
 
