@@ -14,7 +14,7 @@ excerpt: 踩了无数的坑...
 
 
 
-好在作为[叠境]([https://www.dgene.com](https://www.dgene.com/)) 附属学院，金主爸爸重新赞助了一批阿里云服务器，这批新的服务器将会在2019年双十二期间划归社团。
+好在作为[叠境]([https://www.dgene.com](https://www.dgene.com/))附属学院，金主爸爸重新赞助了一批阿里云服务器，这批新的服务器将会在2019年双十二期间划归社团。
 
 
 
@@ -136,8 +136,6 @@ excerpt: 踩了无数的坑...
 
 <del>原来叠境离学校这么近，果然我们是叠境附属学院</del>
 
-<del>贫穷限制了我的想象</del>
-
 
 
 
@@ -205,9 +203,11 @@ tar xvpfz /home/geekpie/backup.tgz -C /
 
 
 
-至此，Rancher就恢复完成了。接下来就是通过 Zerotier 组网，修改域名解析等工作。负责Rancher的prim和负责各种服务的 kruskal 迁移完成。
+至此，Rancher就恢复完成了。接下来就是通过 Zerotier 组网，修改域名解析，搭建Zerotier-MOON等工作。负责Rancher的prim和负责各种服务的 kruskal 迁移完成。
 
 
+
+从12月初到1月23号，大约两个月的时间，<del>每天11欧</del>，完成了迁移的大部分工作。<del>希望明年社团年夜饭不要自费</del>
 
 ## 0x04 Jenkins 和 Portus
 
