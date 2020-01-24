@@ -41,16 +41,16 @@ excerpt: 踩了无数的坑...
 
 之前，我们一共有三台Azure + 若干台其它server <del>所有服务器都用算法命名</del>
 
-- Azure-CN-E2-0 【brent﻿】           64G        负责跑 Rancher 1.6  服务
-- Azure-CN-E2-1 【prim﻿】             64G       因为服务器在海外，负责 Jenkins自动docker构建和 registry 服务
-- Azure-CN-E2-2 【kruskal﻿】        64G        负责跑大多数的服务，拥有大量数据库
+- Azure-CN-E2-0 【brent﻿】            64G        1C2G        负责跑 Rancher 1.6  服务
+- Azure-CN-E2-1 【prim﻿】             64G         1C2G        因为服务器在海外，负责 Jenkins自动docker构建和 registry 服务
+- Azure-CN-E2-2 【kruskal﻿】         64G         1C2G        负责跑大多数的服务，拥有大量数据库
 - etc
 
 
 
 叠镜赞助了我们四台服务器：
 
-- 3台上海阿里云 硬盘为 30G
+- 3台上海阿里云 硬盘为 30G  2C2G
 - 1台香港阿里云
 
 
@@ -145,7 +145,7 @@ excerpt: 踩了无数的坑...
 
 ### 坑点二 Zerotier
 
-由于阿里云的机器是由Azure迁移过去的，所以两者的Zerotier NodeID是一样的。对于Zerotier来说，它只负责建立两者之间的路由，因此你无法判断你到某个阿里云的内网ip会落到阿里云还是Azure。并且这个路由并不能有效的强制刷新解决。造成了相当程度的内网混乱。
+由于阿里云的机器是由Azure迁移过去的，所以两者的Zerotier NodeID是一样的。对于Zerotier来说，它只负责建立两者之间的路由，因此你无法判断你到某个阿里云的内网ip会落到阿里云还是Azure。**并且这个路由并不能有效的通过强制刷新解决**。造成了相当程度的内网混乱。
 
 通过**更改NodeID**解决了这个问题。
 
@@ -173,6 +173,47 @@ excerpt: 踩了无数的坑...
 
 
 
+一开始使用的是 `rsync` ，因为我们的服务器是通过私钥访问的，所以额外添加了私钥。而mysql数据库文件的迁移需要保证两者文件属性和权限完全一样，所以使用了命令
+
+```bash
+$rsync -avzP [username]@[ipaddress]:/home/geekpie/backup
+```
+
+最后的错误信息是：
+
+我们的数据是通过 docker 的 -v 参数映射到了根目录下的 /data 文件夹下。 因此在 Azure 上，我们运行了保留文件属性的打包命令:
+
+```bash
+$tar cvpzf backup.tgz /data/*
+```
+
+然后通过 winSCP <del>基金会</del>把backup.gz下载到个人电脑上再上传到阿里云上去。
+
+运行命令进行复原
+
+```bash
+tar xvpfz /home/geekpie/backup.tgz -C /
+```
+
+至此，rancher 的数据库以及其它的配置文件就恢复完成了。
+
+
+
+#### 坑点三杠二  Rancher连接数据库
+
+参考[链接](https://rancher.com/docs/rancher/v1.6/en/faqs/server/#releasing-the-database-lock)
+
+
+
+至此，Rancher就恢复完成了。接下来就是通过 Zerotier 组网，修改域名解析等工作。负责Rancher的prim和负责各种服务的 kruskal 迁移完成。
+
+
+
+## 0x04 Jenkins 和 Portus
+
+大家不一定还记得，我们还有一套自动构建系统 —— Jenkins 和 Portus 。
+
+第一部分的迁移很简单。因为在Rancher上每台主机都有一个lable，因此只要docker的调度不变，重启docker就能跑到新服务器上了。
 
 
 
@@ -182,5 +223,4 @@ excerpt: 踩了无数的坑...
 
 
 
-
-To be continued.
+**To be continued.**
