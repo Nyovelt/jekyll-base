@@ -217,7 +217,7 @@ tar xvpfz /home/geekpie/backup.tgz -C /
 
 
 
-
+<del>截止今日 Jenkins 还没有完全恢复</del>
 
 
 
