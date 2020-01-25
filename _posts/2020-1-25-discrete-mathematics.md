@@ -20,3 +20,17 @@ It's simply obvious.
 
 
 
+## Chapter 2: Basic Structures: Sets, Functions, Sequences, Sums and Matrices
+
+### 2.1.1 Introduction
+
+**roster method** : 一种集合的表示法，形如 {a,b,c,d}
+
+**set builder notation**: 集合的描述法。
+
+**intervals**:  区间。包含开区间和闭区间。
+
+两个集合相等当且仅当它们的元素相同。
+
+
+
