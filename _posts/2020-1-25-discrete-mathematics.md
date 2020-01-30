@@ -32,5 +32,15 @@ It's simply obvious.
 
 两个集合相等当且仅当它们的元素相同。
 
+介绍空集(empty set or null set)和单元素集(singleton set)的概念。
 
+**Naïve Set Theory**: 朴素集合论。避免已知的各種悖论，例如理发师悖论。
+
+### 2.1.2 文氏圖 (Venn diagram)
+
+<img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/venn-diagrams/discovery/featured.svg" alt="Diagram" style="zoom:50%;" />
+
+
+
+### 2.1.3 Subsets
 
