@@ -1,5 +1,5 @@
 ---
-title: [Monthly Report]202001
+title: 【Monthly Report】202001
 date: 2020-1-29 22:00:59 +0800
 category: Life
 tags: Monthly Report
