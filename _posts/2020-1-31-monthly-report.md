@@ -1,9 +1,9 @@
 ---
-title: [Monthly Report] 202001
+title: [Monthly Report]202001
 date: 2020-1-29 22:00:59 +0800
 category: Life
 tags: Monthly Report
-excerpt: 
+excerpt: 咕咕咕...
 ---
 
 
@@ -16,16 +16,17 @@ excerpt:
 
 
 
-## 0x01
+## 0x01 
 
 在寒假期间完成了服务器迁移的大部分工作，详见[这里](https://aaaab3n.co/technology/2020/01/14/server-move.html)。
 
 目前还有Jenkins + Portus 的自动构建问题有待解决。
 
 
-## 0x02
 
-原本准备学很多东西的。比如为.Net充值一下信仰，或者像 @Luv Letter [在这里](https://www.zhihu.com/question/57767264/answer/494104330) 提到的那样提前学一下 CSAPP ，或者按照数一和Vizna说的刷一下LeetCode，或者和朋友一起闯关freecodecamp ....
+## 0x02 
+
+原本准备学很多东西的。比如为.Net充值一下信仰，或者像 @Luv Letter [在这里](https://www.zhihu.com/question/57767264/answer/494104330) 提到的那样提前学一下 CSAPP ，或者按照数一和Vizna说的刷一下LeetCode，或者和朋友一起闯关freecodecamp .... 
 
 以上无一例外都咕了。
 
@@ -52,12 +53,11 @@ excerpt:
   <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZM0vb-qxeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 暂时令人满意的工作环境
+- 暂时养成了睡觉不带手机的习惯
 
 
 
-## 0x04
-
-新年还是有一些新设备的。
+## 0x04 新年新设备
 
 - 家里入了一台 TCL 75v2 。 我装上的kodi，连上了nas，并且去筛选了一个[直播源](https://github.com/Nyovelt/m3u8_Shanghai)，并将直播源托管到了Github上。（目前处于放置play状态，因为PC上的Arch WSL出现了非常严重的问题，缺少筛选脚本的运行环境）
 
@@ -73,6 +73,6 @@ excerpt:
 
 
 
-## 0x05
+## 0x05 锅
 
 - 我接到了一个Django的锅。
