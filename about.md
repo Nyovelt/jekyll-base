@@ -6,7 +6,7 @@ reward: false
 
 <head>
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
@@ -22,6 +22,8 @@ reward: false
             }
         });
     </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
 
 
@@ -77,9 +79,3 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
       <p>单击后显示的产品的详细信息。</p>
     </div>
 </div>
-
-<body>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
