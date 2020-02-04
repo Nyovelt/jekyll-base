@@ -23,10 +23,7 @@ reward: false
     </script>
 </head>
 
-<body>
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
+
 
 
 ## 关于作者
@@ -64,8 +61,11 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
 
 
 
-<iframe>
-    <div class="card">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+<div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="images/office.jpg">
     </div>
@@ -77,6 +77,5 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
       <span class="card-title grey-text text-darken-4">卡片标题<i class="material-icons right">close</i></span>
       <p>单击后显示的产品的详细信息。</p>
     </div>
-  </div>
-</iframe>
+</div>
 
