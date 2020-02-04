@@ -5,7 +5,7 @@ reward: false
 ---
 
 <head>
-    <!--Import Google Icon Font-->
+      <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -13,6 +13,7 @@ reward: false
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -22,6 +23,8 @@ reward: false
         });
     </script>
 </head>
+
+
 
 
 
@@ -61,10 +64,6 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
 
 
 
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-
 <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="images/office.jpg">
@@ -79,3 +78,8 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
     </div>
 </div>
 
+<body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
