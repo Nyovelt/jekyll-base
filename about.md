@@ -25,11 +25,7 @@ reward: false
 
 
 ```markup
-<body>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
+
 ```
 
 ## 关于作者
@@ -68,7 +64,10 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
 
 
 <iframe>
-      <div class="card">
+          <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="images/office.jpg">
     </div>
