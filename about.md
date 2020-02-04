@@ -55,3 +55,20 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/) $\int$    $\int$[shinohara-rin](https:/
 
 
 
+
+<div class="col s12 m7">
+    <h2 class="header">水平卡片</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="http://lorempixel.com/100/190/nature/6">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>我是一个很简单的卡片。我很擅长于包含少量的信息。</p>
+        </div>
+        <div class="card-action">
+          <a href="#">这是一个链接</a>
+        </div>
+      </div>
+</div>
+
