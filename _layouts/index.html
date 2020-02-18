@@ -26,7 +26,7 @@
         {% assign image_files = site.static_files | where: "image", true %}
         {% for image in image_files %}
           {% if image.basename == 'avatar' %}
-          <a href="/articles"><img src="/assets/img/avatar.webp" alt="avatar"></a>
+          <a href="/articles"><img src="//www.gravatar.com/avatar/b2c4a677169e019afdc89144f4500236?s=200&d=robohash&r=g" alt="avatar"></a>
           {% endif %}
         {% endfor %}
       {% endif %}
