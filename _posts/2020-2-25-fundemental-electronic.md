@@ -24,5 +24,7 @@ We commence our study by defining some basic concepts. These concepts include ch
 
 [国际单位制](https://zh.wikipedia.org/zh-tw/国际单位制)
 
+## 1.3 Charge and Current
 
+**Charge is an electrical property of the atomic particles of which matter consists, measured in coulombs (C).**
 
