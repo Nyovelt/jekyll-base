@@ -3,7 +3,7 @@ title: 电路基础定义速查
 date: 2020-2-25 22:42:59 +0800
 category: Education
 tags: Physics
-excerpt:
+excerpt: Electric circuit theory and electromagnetic theory are the two fundamental theories upon which all branches of electrical engineering are built.
 ---
 
 
