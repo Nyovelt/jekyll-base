@@ -1,6 +1,6 @@
 ---
 title: 离散数学定义速查
-date: 2020-1-25 22:42:59 +0800
+date:
 category: Education
 tags: Mathematic
 excerpt:  wish you luck as you begin your journey ...
