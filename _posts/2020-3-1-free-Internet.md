@@ -33,7 +33,6 @@ excerpt: 自由是我们能想到的最恐怖的东西，但不管它在哪里�
 
 
 <center>长的像RJ45网线接口的一栋楼</center>
-
 ### 我们都在一条船上，它的名字叫钻石公主
 
 精神病学家和作家伊丽莎白·库布勒-罗斯（Elisabeth Kübler-Ross）在《论死亡与临终》（On Death and Dying）中提出一个著名的五阶段模式，比如说，患上晚期疾病的时候如何做出反应：**否认**（拒绝接受事实，比如“怎么可能发生这种事，我不可能会这样。”）；**愤怒**（当我们再也不能否认事实的时候就会爆发，比如“这种事怎么会发生在我身上？”）；**讨价还价**（希望能够设法拖延或缓和事实，比如“只要让我活着看到孩子毕业就好。”）；**抑郁**（本能地想减少投资，比如“我要死了，干嘛还拿什么事来烦我？”）；最后则是**接受**（“我对抗不了它，但我也可以为它做些准备。”）
@@ -62,7 +61,7 @@ excerpt: 自由是我们能想到的最恐怖的东西，但不管它在哪里�
 
 <img src="https://am9saw.sn.files.1drv.com/y4mOFQnpQXL955KaB_Ry7jByEd2RN_l6u6F3IZZ_2zxTt3JxBX_iB-FTr0R-5LbFki7KwHRBnensq4byr-Wpcb782Cb22Mqc-FdHXuMEOEoeuMGI7tFEjVuWIyMPDFEHNorlvq-NK6YAnagbxoA-SlrlB_gXbQEUXyB5NfkldD_eR9UQg3nGxD07SD35rxTdVP9Oc-VVc1Y6pILosHSBu7v6w?width=904&amp;height=1280&amp;cropmode=none" alt="我失去的更多" style="zoom:33%;" />
 
-<center>这些里有3个是我每天都在用的，大部分都用过</center>
+<center>ENOUGH IS ENOUGH</center>
 
 ### 自救指南
 
