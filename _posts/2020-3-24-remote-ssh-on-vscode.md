@@ -138,6 +138,8 @@ source ~/.zshrc
 
 ## VSCODE 配置与插件推荐
 
+<img src="https://r5qu0w.sn.files.1drv.com/y4m2kBgoK8yjc2cmeqMhSJPQg_BZEtYD8Zf5i095EWWMu0En4Ea3zNS2PfUWFK1V7RyEmRz1yRKzJyX_cAdeuuW3k9bBxKrOhQ0A5C_mBJxQJ0QZPQBGnGBVMITcKbm_Ss_b4s3knx9_u5KyrLZ9cZFIh7BXEO6oh2gVs5x2HkdyF09IsKOSAOU7CtYCDMwYj2loLPgev2wGXW000LqkcKBMA?width=3840&amp;height=2080&amp;cropmode=none" alt="https://r5qu0w.sn.files.1drv.com/y4m2kBgoK8yjc2cmeqMhSJPQg_BZEtYD8Zf5i095EWWMu0En4Ea3zNS2PfUWFK1V7RyEmRz1yRKzJyX_cAdeuuW3k9bBxKrOhQ0A5C_mBJxQJ0QZPQBGnGBVMITcKbm_Ss_b4s3knx9_u5KyrLZ9cZFIh7BXEO6oh2gVs5x2HkdyF09IsKOSAOU7CtYCDMwYj2loLPgev2wGXW000LqkcKBMA?width=3840&amp;height=2080&amp;cropmode=none" style="zoom: 25%;" />
+
 
 
 ## 参考
