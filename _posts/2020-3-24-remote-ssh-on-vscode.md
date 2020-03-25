@@ -63,6 +63,7 @@ ZSH_THEME="sorin"
 #如果是个人电脑我推荐：
 ZSH_THEME="agnoster"
 # agnoster 需要安装 powerline 字体以正确显示
+# 推荐字体DejaVu
 ```
 
 然后安装插件: 
