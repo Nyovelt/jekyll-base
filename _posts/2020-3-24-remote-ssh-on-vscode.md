@@ -65,8 +65,82 @@ ZSH_THEME="agnoster"
 # agnoster 需要安装 powerline 字体以正确显示
 ```
 
+然后安装插件: 
+
+### zsh-syntax-highlighting
+
+[官网](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+```
+
+```
+
+**作用**:  平常用的`ls`、`cd` 等命令输入正确会绿色高亮显示，输入错误会显示其他的颜色。
+
+![https://ooo.0o0.ooo/2017/05/21/5921b54d899d9.png](https://ooo.0o0.ooo/2017/05/21/5921b54d899d9.png)
+
+**安装**
+
+克隆项目
+
+```shell
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+在 `~/.zshrc` 中配置
+
+```json
+plugins=(其他的插件 zsh-syntax-highlighting)
+```
+
+使配置生效
+
+```bash
+source ~/.zshrc
+```
+
+
+
+### zsh-autosuggestions
+
+[官网](https://github.com/zsh-users/zsh-autosuggestions)
+
+**作用**
+
+效率神器 👍
+
+如图输入命令时，会给出建议的命令（灰色部分）按键盘 → 补全
+
+![https://user-gold-cdn.xitu.io/2018/4/25/162fb3812c15aac4?imageView2/0/w/1280/h/960/ignore-error/1](https://user-gold-cdn.xitu.io/2018/4/25/162fb3812c15aac4?imageView2/0/w/1280/h/960/ignore-error/1)
+
+**安装**
+
+克隆项目
+
+```shell
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+在 `~/.zshrc` 中配置
+
+```json
+plugins=(其他的插件 zsh-autosuggestions)
+```
+
+使配置生效
+
+```bash
+source ~/.zshrc
+```
+
+
+
+## VSCODE 配置与插件推荐
+
 
 
 ## 参考
 
 [Oh My Zsh，安装，主题配置方法](https://zhuanlan.zhihu.com/p/35283688)
+
+[zsh oh-my-zsh 插件推荐](https://juejin.im/entry/5ae00e54f265da0b8635ea5c)
