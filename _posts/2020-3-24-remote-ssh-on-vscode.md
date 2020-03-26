@@ -76,13 +76,11 @@ ZSH_THEME="agnoster"
 
 [官网](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-```
 
-```
 
 **作用**:  平常用的`ls`、`cd` 等命令输入正确会绿色高亮显示，输入错误会显示其他的颜色。
 
-![https://ooo.0o0.ooo/2017/05/21/5921b54d899d9.png](https://ooo.0o0.ooo/2017/05/21/5921b54d899d9.png)
+![](https://ooo.0o0.ooo/2017/05/21/5921b54d899d9.png)
 
 **安装**
 
@@ -116,7 +114,7 @@ source ~/.zshrc
 
 如图输入命令时，会给出建议的命令（灰色部分）按键盘 → 补全
 
-![https://user-gold-cdn.xitu.io/2018/4/25/162fb3812c15aac4?imageView2/0/w/1280/h/960/ignore-error/1](https://user-gold-cdn.xitu.io/2018/4/25/162fb3812c15aac4?imageView2/0/w/1280/h/960/ignore-error/1)
+![](https://user-gold-cdn.xitu.io/2018/4/25/162fb3812c15aac4?imageView2/0/w/1280/h/960/ignore-error/1)
 
 **安装**
 
@@ -173,7 +171,7 @@ source ~/.zshrc
 
 之后选择 Configure SSH Hosts 打开配置文件进行配置
 
-![https://p5pmmq.sn.files.1drv.com/y4mpR_EFGw1mP18ZlzzCTwTq6WJWTiUEKM7sIIeO8R0sBFuZdZ-t1nuRbceom18yme8pJ8RZ-fIALlve7GWQtScVpBYZfy31cMEYW_3OgbKSun-7Qc1tg1KBe_KQalnYkMy6L3rCQavbxEUVz3BKRlbK-t8P6ij5TLGzkaLOuFtJl503BHVgTYUh2zp2b74qaGqu64RQxJO7-w4OccM6wNtug?width=2736&height=1744&cropmode=none](https://p5pmmq.sn.files.1drv.com/y4mpR_EFGw1mP18ZlzzCTwTq6WJWTiUEKM7sIIeO8R0sBFuZdZ-t1nuRbceom18yme8pJ8RZ-fIALlve7GWQtScVpBYZfy31cMEYW_3OgbKSun-7Qc1tg1KBe_KQalnYkMy6L3rCQavbxEUVz3BKRlbK-t8P6ij5TLGzkaLOuFtJl503BHVgTYUh2zp2b74qaGqu64RQxJO7-w4OccM6wNtug?width=2736&height=1744&cropmode=none)
+![](https://p5pmmq.sn.files.1drv.com/y4mpR_EFGw1mP18ZlzzCTwTq6WJWTiUEKM7sIIeO8R0sBFuZdZ-t1nuRbceom18yme8pJ8RZ-fIALlve7GWQtScVpBYZfy31cMEYW_3OgbKSun-7Qc1tg1KBe_KQalnYkMy6L3rCQavbxEUVz3BKRlbK-t8P6ij5TLGzkaLOuFtJl503BHVgTYUh2zp2b74qaGqu64RQxJO7-w4OccM6wNtug?width=2736&height=1744&cropmode=none)
 
 `ssh config` 的配置方式如下: 
 
@@ -217,15 +215,15 @@ sudo apt install texlive-full
 
 然后安装插件 [LaTeX Workshop ](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 
-![https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none](https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none)
+![](https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none)
 
 编译起来不是一般的快😎
 
-![https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none](https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none)
+![](https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none)
 
 把文件下载到本地也非常方便:
 
-![https://p5pymq.sn.files.1drv.com/y4m4_9V2--khhyOURXpfkD_41FwR_riViROb_Ik1zNPAQKSjiBBuAv-Y4yxixU3drmvRc2XN167jDN_yGE8w_47vGCHs_1XOxzi1WJGVloLdwhQjhqf2K1O-nEnvorT3o1-z5qlfP23V9iavfdKh3TDOwUvIgnFIfNQdgen5wOJve30mvh-k6H-hYRBZOZYJtWxwJ2ik5NlGZSd2gX4uwhlbA?width=2730&height=1730&cropmode=none](https://p5pymq.sn.files.1drv.com/y4m4_9V2--khhyOURXpfkD_41FwR_riViROb_Ik1zNPAQKSjiBBuAv-Y4yxixU3drmvRc2XN167jDN_yGE8w_47vGCHs_1XOxzi1WJGVloLdwhQjhqf2K1O-nEnvorT3o1-z5qlfP23V9iavfdKh3TDOwUvIgnFIfNQdgen5wOJve30mvh-k6H-hYRBZOZYJtWxwJ2ik5NlGZSd2gX4uwhlbA?width=2730&height=1730&cropmode=none)
+![](https://p5pymq.sn.files.1drv.com/y4m4_9V2--khhyOURXpfkD_41FwR_riViROb_Ik1zNPAQKSjiBBuAv-Y4yxixU3drmvRc2XN167jDN_yGE8w_47vGCHs_1XOxzi1WJGVloLdwhQjhqf2K1O-nEnvorT3o1-z5qlfP23V9iavfdKh3TDOwUvIgnFIfNQdgen5wOJve30mvh-k6H-hYRBZOZYJtWxwJ2ik5NlGZSd2gX4uwhlbA?width=2730&height=1730&cropmode=none)
 
 
 
