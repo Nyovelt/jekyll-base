@@ -14,7 +14,7 @@ Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc�
 
 在半年前我刚上大学的时候，xa学长就向我推荐了remote-ssh 。可以充分利用阿里云学生机 9.9 块的羊毛，外加原生的 linux 在编译速度上玄学的快于 windows ( 在编译TeX时，有明显的感觉 )的特性。所以在最近我将开发环境转移到了阿里云。经过了一周的试用，我认为这是目前最适合我的使用场景的开发环境。首先，它解决了代码多设备同步的问题；其次，它分担了 surface 的压力 ；最后， surface 因此成为了我的便携式个人电脑。
 
-当然，如果没有阿里云学生机或者其它VPS，一块树莓派也应该是可以的。
+当然，如果没有阿里云学生机或者其它VPS，一块树莓派加 Zerotier 也应该是可以的。
 
 ## Set-UP
 
@@ -159,7 +159,7 @@ source ~/.zshrc
 
 本地： [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)  [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)    [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)  
 
-远程： [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) *该插件的一些特性可能会让程序的编译遇到错误(比如python和python3的问题)，需要进一步调教。   [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)  [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode) *按个人喜好   [Waka TIme](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) 
+远程：  [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)  [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode) *按个人喜好   [Waka TIme](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) 
 
 主题:    [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
@@ -202,6 +202,32 @@ sudo apt install python3
 即可运行:
 
 <img src="https://p5pnmq.sn.files.1drv.com/y4mginpxGISWTmAMyrdwIWbFpEt7cTbHfUfJ8KBYLVvdgukJfNkUFI_t1Eqxr-zZdWDt62gKaNcIG_Ct9JAHMqqZSLK5qduvgB-_O4K_aDjjVm6OgLLLYuV-Ty0ACCYDaQd7CVWIleKIn-lCx2zETKNLscO2hnIy7qGbIK4jI3vihMcRm_0YZo42ogSN1TRjFDUtft27cZEKNEgDmlMdMlXFg?width=2736&amp;height=1752&amp;cropmode=none" alt="https://p5pnmq.sn.files.1drv.com/y4mginpxGISWTmAMyrdwIWbFpEt7cTbHfUfJ8KBYLVvdgukJfNkUFI_t1Eqxr-zZdWDt62gKaNcIG_Ct9JAHMqqZSLK5qduvgB-_O4K_aDjjVm6OgLLLYuV-Ty0ACCYDaQd7CVWIleKIn-lCx2zETKNLscO2hnIy7qGbIK4jI3vihMcRm_0YZo42ogSN1TRjFDUtft27cZEKNEgDmlMdMlXFg?width=2736&amp;height=1752&amp;cropmode=none" style="zoom:50%;" />
+
+不论是 Linux 还是 MacOS ，相对于 Powershell 的优势都在于可以输入 "<" 和 ">" 。对于程序测试来说，显然更加方便。
+
+
+
+### TeX
+
+首先安装 `tex-full `
+
+```bash
+sudo apt install texlive-full
+```
+
+然后安装插件 [LaTeX Workshop ](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+
+![https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none](https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none)
+
+![https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none](https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none)
+
+把文件下载到本地也非常方便:
+
+![https://p5pymq.sn.files.1drv.com/y4m4_9V2--khhyOURXpfkD_41FwR_riViROb_Ik1zNPAQKSjiBBuAv-Y4yxixU3drmvRc2XN167jDN_yGE8w_47vGCHs_1XOxzi1WJGVloLdwhQjhqf2K1O-nEnvorT3o1-z5qlfP23V9iavfdKh3TDOwUvIgnFIfNQdgen5wOJve30mvh-k6H-hYRBZOZYJtWxwJ2ik5NlGZSd2gX4uwhlbA?width=2730&height=1730&cropmode=none](https://p5pymq.sn.files.1drv.com/y4m4_9V2--khhyOURXpfkD_41FwR_riViROb_Ik1zNPAQKSjiBBuAv-Y4yxixU3drmvRc2XN167jDN_yGE8w_47vGCHs_1XOxzi1WJGVloLdwhQjhqf2K1O-nEnvorT3o1-z5qlfP23V9iavfdKh3TDOwUvIgnFIfNQdgen5wOJve30mvh-k6H-hYRBZOZYJtWxwJ2ik5NlGZSd2gX4uwhlbA?width=2730&height=1730&cropmode=none)
+
+
+
+
 
 
 
