@@ -10,7 +10,7 @@ excerpt: 让surface真正好用起来
 
 Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc的远程开发套件。我目前的主力设备是HP-OMEN 2 (i5-6300HQ) 和 Surface Pro 6 (i5) 。为了用上好用的包管理器，我都是装了Arch的Windows Subsystem Linux 作为日常开发。
 
-在最近，随着天气转暖，以及经手了几个稍微复杂的项目部署，wsl相对于cpu的占用率达到了50%左右，明显感受到了性能瓶颈，外加hyper的内存泄漏，，<del>让我周一的 python 在线 quiz雪上加霜</del>。更不用说surface贫弱的性能和移动性，不适合在本地跑大项目。
+在最近，随着天气转暖，以及经手了几个稍微复杂的项目部署，wsl相对于cpu的占用率经常达到了50%左右，明显感受到了性能瓶颈，外加hyper的内存泄漏，，<del>让我周一的 python 在线 quiz雪上加霜</del>。更不用说surface贫弱的性能和移动性，不适合在本地跑大项目。
 
 在半年前我刚上大学的时候，xa学长就向我推荐了remote-ssh 。可以充分利用阿里云学生机 9.9 块的羊毛，外加原生的 linux 在编译速度上玄学的快于 windows ( 在编译TeX时，有明显的感觉 )的特性。所以在最近我将开发环境转移到了阿里云。经过了一周的试用，我认为这是目前最适合我的使用场景的开发环境。首先，它解决了代码多设备同步的问题；其次，它分担了 surface 的压力 ；最后， surface 因此成为了我的便携式个人电脑。
 
@@ -219,6 +219,8 @@ sudo apt install texlive-full
 
 ![https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none](https://p5pomq.sn.files.1drv.com/y4mvxJll2DUrJ8_H5ceAXG406s47HcBKU5A9Lz5Ipj_9itqaXyHff4hK9e45sFZK7xNKXVMlXGdsxyL3PKsMsfNRYBqmPNDfGxHEeSwsmGFYXZkFYkJUFPx126TeVy4OKkOzu6qQnKC7i0JO_fCSxurua9oCEEqz9IS4BSiKakiwhNHuo4i7lVd6MtYYTuEervHcm6j65VBpVSWMazwz6Uchg?width=2736&height=1722&cropmode=none)
 
+编译起来不是一般的快😎
+
 ![https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none](https://p5pxmq.sn.files.1drv.com/y4mUuhjrUlBhnvGuQR-ufyO5HREJbdLuXxFPzM85AXmZbovYew6_yuh4ddFMG721xRiebvNoDnFSGN15hrrtG0pewX-KjICiMsXPlZsf8AEV-ZSgD5iA8rVcgrkCIJdGCIKc5MhJWbcyf0SeDfjR9O0fp-u-_5vDo9Xcj4yUGLl7WTg3qM1FPlxaaFwo85_7KiBRlONkrI-AViYdiM6RPAvow?width=2736&height=1754&cropmode=none)
 
 把文件下载到本地也非常方便:
@@ -227,7 +229,9 @@ sudo apt install texlive-full
 
 
 
+## 总结
 
+支持远程编译/本地改动的 IDE /编辑器不止VSC一家。对于便携电脑来说，Remote-SSH 可以减轻电脑压力；对于主力Windows机来说， 可以提供 Linux 下编程的便利，也提供的一种便捷代码同步方式 (而且 linux 下使用 git 操作也更加方便)。同时，只要有 linux 环境和主流架构的机器都可以作为 remote-SSH 的远程机，对于硬核爱好者，你甚至可以在路由器上编译自己的代码。
 
 
 
