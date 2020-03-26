@@ -8,7 +8,7 @@ excerpt: 让surface真正好用起来
 
 # Remote-SSH: 我的开发环境
 
-Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc的远程开发套件。我目前的主力设备是HP-OMEN 2 (i5-6300HQ) 和 Surface Pro 6 (i5) 。为了用上好用的包管理器，我都是装了Arch的Windows Subsystem Linux 作为日常开发。
+Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc的远程开发套件。这两款插件对于 Linux 的支持非常的好，<del>甚至有人认为这是Windows下最好的ssh工具</del>。我目前的主力设备是HP-OMEN 2 (i5-6300HQ) 和 Surface Pro 6 (i5) 。为了用上好用的包管理器，我都是装了Arch的Windows Subsystem Linux 作为日常开发。
 
 在最近，随着天气转暖，以及经手了几个稍微复杂的项目部署，wsl相对于cpu的占用率经常达到了50%左右，明显感受到了性能瓶颈，外加hyper的内存泄漏，，<del>让我周一的 python 在线 quiz雪上加霜</del>。更不用说surface贫弱的性能和移动性，不适合在本地跑大项目。
 
@@ -230,6 +230,8 @@ sudo apt install texlive-full
 
 
 ## 总结
+
+当然，除了上文所提到了以外，还有其它的配置( 比如添加自己的 ssh-key 来完成 git 同步等)可供自定义。
 
 支持远程编译/本地改动的 IDE /编辑器不止VSC一家。对于便携电脑来说，Remote-SSH 可以减轻电脑压力；对于主力Windows机来说， 可以提供 Linux 下编程的便利，也提供的一种便捷代码同步方式 (而且 linux 下使用 git 操作也更加方便)。同时，只要有 linux 环境和主流架构的机器都可以作为 remote-SSH 的远程机，对于硬核爱好者，你甚至可以在路由器上编译自己的代码。
 
