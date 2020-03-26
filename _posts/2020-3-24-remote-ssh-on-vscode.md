@@ -10,13 +10,17 @@ excerpt: 让surface真正好用起来
 
 Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc的远程开发套件。我目前的主力设备是HP-OMEN 2 (i5-6300HQ) 和 Surface Pro 6 (i5) 。为了用上好用的包管理器，我都是装了Arch的Windows Subsystem Linux 作为日常开发。
 
-在最近，随着天气转暖，以及经手了几个稍微复杂的项目部署，wsl相对于cpu的占用率达到了50%左右，明显感受到了性能瓶颈，外加hyper的内存泄漏，，<del>让我周一的python 在线 quiz雪上加霜</del>。更不用说surface贫弱的性能和移动性，不适合在本地跑大项目。
+在最近，随着天气转暖，以及经手了几个稍微复杂的项目部署，wsl相对于cpu的占用率达到了50%左右，明显感受到了性能瓶颈，外加hyper的内存泄漏，，<del>让我周一的 python 在线 quiz雪上加霜</del>。更不用说surface贫弱的性能和移动性，不适合在本地跑大项目。
 
-在半年前我刚上大学的时候，xa学长就向我推荐了remote-ssh 。利用阿里云学生机 9.9 块的羊毛，外加原生的 linux 在编译速度上玄学的快于 windows ( 在编译TeX时，有明显的感觉 )。所以在最近我将开发环境转移到了阿里云。经过了一周的试用，我认为这是目前最适合我的使用场景的开发环境。首先，它解决了代码多设备同步的问题；其次，它分担了 surface 的压力 ；最后， surface 因此成为了我的便携式个人电脑。
+在半年前我刚上大学的时候，xa学长就向我推荐了remote-ssh 。可以充分利用阿里云学生机 9.9 块的羊毛，外加原生的 linux 在编译速度上玄学的快于 windows ( 在编译TeX时，有明显的感觉 )的特性。所以在最近我将开发环境转移到了阿里云。经过了一周的试用，我认为这是目前最适合我的使用场景的开发环境。首先，它解决了代码多设备同步的问题；其次，它分担了 surface 的压力 ；最后， surface 因此成为了我的便携式个人电脑。
+
+当然，如果没有阿里云学生机或者其它VPS，一块树莓派也应该是可以的。
 
 ## Set-UP
 
 首先，**颜值既是生产力**。因此首先在Linux主机上安装并配置oh-my-zsh。
+
+<img src="https://p5psmq.sn.files.1drv.com/y4mrWO7Fa2_wX0-3WrjWB1n63xJX658Htwt_X0CCedBV-JiUNn_3t9uYmUiQHAgzuSqdbBXTpKXMHSdlLp7YrdKbF2HeFfT8qhhFUlypYJolt7TzcovJp3TJ87s6liK6pqWeGFj0S2ljMN3H2YIz9g1ZNKH_-p4a7IhZYPQRhY-qjGu13Yw18PpwJ6ccCPHkT5OBJzGLRxVxMIVL3B-zEid-g?width=1472&amp;height=898&amp;cropmode=none" alt="https://p5psmq.sn.files.1drv.com/y4mrWO7Fa2_wX0-3WrjWB1n63xJX658Htwt_X0CCedBV-JiUNn_3t9uYmUiQHAgzuSqdbBXTpKXMHSdlLp7YrdKbF2HeFfT8qhhFUlypYJolt7TzcovJp3TJ87s6liK6pqWeGFj0S2ljMN3H2YIz9g1ZNKH_-p4a7IhZYPQRhY-qjGu13Yw18PpwJ6ccCPHkT5OBJzGLRxVxMIVL3B-zEid-g?width=1472&amp;height=898&amp;cropmode=none" style="zoom:50%;" />
 
 运行命令安装 zsh :
 
@@ -136,9 +140,68 @@ source ~/.zshrc
 
 
 
+### 镜像源：
+
+如果用的不是阿里云的机器或者是自建的机器（比如树莓派），为了加速访问，需要更换镜像源。
+
+- [交大源](https://mirrors.sjtug.sjtu.edu.cn/#/)   交大作为上海教育网的出口和骨干，也是咱使用的镜像源。在咱这里访问能跑满带宽(12.8M/s)
+- [中科大源](http://mirrors.ustc.edu.cn/) 和 [清华源](https://mirrors.tuna.tsinghua.edu.cn/) 老牌镜像源
+
+- 咱维护的 [上科大源](https://mirrors.geekpie.club/)  （不过由于学校带宽紧张，校外出口每个用户限速1M/s , 校内访问可以跑满网卡 ）
+
 ## VSCODE 配置与插件推荐
 
 <img src="https://r5qu0w.sn.files.1drv.com/y4m2kBgoK8yjc2cmeqMhSJPQg_BZEtYD8Zf5i095EWWMu0En4Ea3zNS2PfUWFK1V7RyEmRz1yRKzJyX_cAdeuuW3k9bBxKrOhQ0A5C_mBJxQJ0QZPQBGnGBVMITcKbm_Ss_b4s3knx9_u5KyrLZ9cZFIh7BXEO6oh2gVs5x2HkdyF09IsKOSAOU7CtYCDMwYj2loLPgev2wGXW000LqkcKBMA?width=3840&amp;height=2080&amp;cropmode=none" alt="https://r5qu0w.sn.files.1drv.com/y4m2kBgoK8yjc2cmeqMhSJPQg_BZEtYD8Zf5i095EWWMu0En4Ea3zNS2PfUWFK1V7RyEmRz1yRKzJyX_cAdeuuW3k9bBxKrOhQ0A5C_mBJxQJ0QZPQBGnGBVMITcKbm_Ss_b4s3knx9_u5KyrLZ9cZFIh7BXEO6oh2gVs5x2HkdyF09IsKOSAOU7CtYCDMwYj2loLPgev2wGXW000LqkcKBMA?width=3840&amp;height=2080&amp;cropmode=none" style="zoom: 25%;" />
+
+
+
+自用的插件：
+
+本地： [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)  [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)    [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)  
+
+远程： [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) *该插件的一些特性可能会让程序的编译遇到错误(比如python和python3的问题)，需要进一步调教。   [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)  [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode) *按个人喜好   [Waka TIme](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) 
+
+主题:    [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+
+
+
+### Remote-SSH的设置
+
+点击右下角，之后选择 `Remote-SSH: Connect to host` 
+
+<img src="https://p5plmq.sn.files.1drv.com/y4m0njtbxsLnNscL9dhR7Mj0dmT5DvIFz92sz6graOKjwNOVk_CAYSYHC1ZbEEEl800sKAwWFmYNYwqqTz7BwuTCWnpRVa4oC60-SdUDoqjL2oaIT6kS1U9laZorQLcld3qKo5T_Xmlei44wnVDSESuD4WAYmN4hWlPR994AJEXB-Wp7-D9lgxfv1Y8iE3MA2Gi8yEO5UZt0LlH3lXVzyMZZw?width=2736&amp;height=1744&amp;cropmode=none" alt="https://p5plmq.sn.files.1drv.com/y4m0njtbxsLnNscL9dhR7Mj0dmT5DvIFz92sz6graOKjwNOVk_CAYSYHC1ZbEEEl800sKAwWFmYNYwqqTz7BwuTCWnpRVa4oC60-SdUDoqjL2oaIT6kS1U9laZorQLcld3qKo5T_Xmlei44wnVDSESuD4WAYmN4hWlPR994AJEXB-Wp7-D9lgxfv1Y8iE3MA2Gi8yEO5UZt0LlH3lXVzyMZZw?width=2736&amp;height=1744&amp;cropmode=none" style="zoom:50%;" />
+
+之后选择 Configure SSH Hosts 打开配置文件进行配置
+
+![https://p5pmmq.sn.files.1drv.com/y4mpR_EFGw1mP18ZlzzCTwTq6WJWTiUEKM7sIIeO8R0sBFuZdZ-t1nuRbceom18yme8pJ8RZ-fIALlve7GWQtScVpBYZfy31cMEYW_3OgbKSun-7Qc1tg1KBe_KQalnYkMy6L3rCQavbxEUVz3BKRlbK-t8P6ij5TLGzkaLOuFtJl503BHVgTYUh2zp2b74qaGqu64RQxJO7-w4OccM6wNtug?width=2736&height=1744&cropmode=none](https://p5pmmq.sn.files.1drv.com/y4mpR_EFGw1mP18ZlzzCTwTq6WJWTiUEKM7sIIeO8R0sBFuZdZ-t1nuRbceom18yme8pJ8RZ-fIALlve7GWQtScVpBYZfy31cMEYW_3OgbKSun-7Qc1tg1KBe_KQalnYkMy6L3rCQavbxEUVz3BKRlbK-t8P6ij5TLGzkaLOuFtJl503BHVgTYUh2zp2b74qaGqu64RQxJO7-w4OccM6wNtug?width=2736&height=1744&cropmode=none)
+
+`ssh config` 的配置方式如下: 
+
+```json
+Host {your host name}
+	Hostname {alias or ip or address}
+	User {username}
+	IdentityFIle {The path of your private key} #非必填项
+	ForwardAgent {yes/no} #密钥的多机器转发，非必填项
+```
+
+
+
+## 一些例子
+
+### Python
+
+在ssh中执行:
+
+```bash
+sudo apt install python3
+```
+
+然后安装 [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 插件
+
+即可运行:
+
+<img src="https://p5pnmq.sn.files.1drv.com/y4mginpxGISWTmAMyrdwIWbFpEt7cTbHfUfJ8KBYLVvdgukJfNkUFI_t1Eqxr-zZdWDt62gKaNcIG_Ct9JAHMqqZSLK5qduvgB-_O4K_aDjjVm6OgLLLYuV-Ty0ACCYDaQd7CVWIleKIn-lCx2zETKNLscO2hnIy7qGbIK4jI3vihMcRm_0YZo42ogSN1TRjFDUtft27cZEKNEgDmlMdMlXFg?width=2736&amp;height=1752&amp;cropmode=none" alt="https://p5pnmq.sn.files.1drv.com/y4mginpxGISWTmAMyrdwIWbFpEt7cTbHfUfJ8KBYLVvdgukJfNkUFI_t1Eqxr-zZdWDt62gKaNcIG_Ct9JAHMqqZSLK5qduvgB-_O4K_aDjjVm6OgLLLYuV-Ty0ACCYDaQd7CVWIleKIn-lCx2zETKNLscO2hnIy7qGbIK4jI3vihMcRm_0YZo42ogSN1TRjFDUtft27cZEKNEgDmlMdMlXFg?width=2736&amp;height=1752&amp;cropmode=none" style="zoom:50%;" />
 
 
 
