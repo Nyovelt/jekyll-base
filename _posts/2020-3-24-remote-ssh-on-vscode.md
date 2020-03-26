@@ -22,6 +22,8 @@ Visual Studio Code 在之前发布了插件 remote-ssh 和 remote-wsl 作为vsc�
 
 <img src="https://p5psmq.sn.files.1drv.com/y4mrWO7Fa2_wX0-3WrjWB1n63xJX658Htwt_X0CCedBV-JiUNn_3t9uYmUiQHAgzuSqdbBXTpKXMHSdlLp7YrdKbF2HeFfT8qhhFUlypYJolt7TzcovJp3TJ87s6liK6pqWeGFj0S2ljMN3H2YIz9g1ZNKH_-p4a7IhZYPQRhY-qjGu13Yw18PpwJ6ccCPHkT5OBJzGLRxVxMIVL3B-zEid-g?width=1472&amp;height=898&amp;cropmode=none" alt="https://p5psmq.sn.files.1drv.com/y4mrWO7Fa2_wX0-3WrjWB1n63xJX658Htwt_X0CCedBV-JiUNn_3t9uYmUiQHAgzuSqdbBXTpKXMHSdlLp7YrdKbF2HeFfT8qhhFUlypYJolt7TzcovJp3TJ87s6liK6pqWeGFj0S2ljMN3H2YIz9g1ZNKH_-p4a7IhZYPQRhY-qjGu13Yw18PpwJ6ccCPHkT5OBJzGLRxVxMIVL3B-zEid-g?width=1472&amp;height=898&amp;cropmode=none" style="zoom:50%;" />
 
+<center>Progynova 9.12 </center>
+
 运行命令安装 zsh :
 
 ```shell
