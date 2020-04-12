@@ -1,5 +1,5 @@
 ---
-title:  记一次涉及alpine和pip的Docker构建失败案例
+title:记一次涉及alpine和pip的Docker构建失败案例
 date: 2020-4-12 9:00:59 +0800
 category: Technology
 tags: Linux Docker
@@ -136,7 +136,7 @@ MAINTAINER zxt @ Geek Pie Association
 
 RUN apk update \
         && apk add --no-cache gcc git python3-dev musl-dev linux-headers  libc-dev  rsync zsh \
-        findutils wget util-linux grep libxml2-dev libxslt-dev \
+        	findutils wget util-linux grep libxml2-dev libxslt-dev \
         &&  pip3 install --upgrade pip  \
         &&  pip3 install apscheduler bandersnatch
 
