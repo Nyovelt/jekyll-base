@@ -3,7 +3,7 @@ title: 一次关于alphine和pip的docker build失败解决
 date: 2020-4-12 12:00:59 +0800
 category: Technology
 tags: Linux
-excerpt: Building wheel for multidict (PEP 517) finished with status 'error' 
+excerpt: Building wheel for multidict (PEP 517) : finished with status 'error' 
 ---
 
 
