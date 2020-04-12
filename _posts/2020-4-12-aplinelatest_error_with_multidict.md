@@ -158,3 +158,6 @@ CMD python3 /Mirrors-AutoSync/Mirrors-AutoSync.py
 ## 总结
 
 错误的产生原因大概要 alphine 背。
+
+## 相关文件
+[Mirrors-AutoSync](https://github.com/ShanghaitechGeekPie/Mirrors-AutoSync)
