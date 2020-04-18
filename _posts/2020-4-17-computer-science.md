@@ -101,3 +101,11 @@ HKU的卓尔这么回答我，"**过程本身就是一种目的**", "选择一�
 今后，我希望我会对那些**"有用"**的事物说：
 
 <center><b>去他妈的</b></center>
+
+
+
+## Source
+
+- [自招偏南|一个时代性的大梦](https://mp.weixin.qq.com/s/dOpMAA6P8AWQY3cSgX0hmg)
+
+- [如何看待知乎大 V 轮子哥关于专业选择的言论？](https://www.zhihu.com/question/280360266/answer/421021713)
