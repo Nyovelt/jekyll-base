@@ -42,7 +42,7 @@ excerpt:  Canarypwn, 出生过, 在读CS，将来要死。
 
 凭借推优和一些幸运，我逃避了中考，考入了市重点中学的重点班。就此，我迈上了一个更大的平台，也认识了高中的同桌 ysc 。说来也巧，在新生群水群的时候看到一个同学说什么VB不是小学就应该会的之类的话的时候<del>结果发现他是真的会，TQL</del>，我就和他取得了联系。<del>并在当天对校园网进行了一次不成功的黑魔法。</del>ysc是真的强，也是我遇到的**最优秀的老师**。在他的带领和引荐下，我加入了学校的最强的编程社团——机器人社，也是他让我决定了，**以后要做计算机科学家**。
 
-<img src="https://pxscdg.sn.files.1drv.com/y4mLkQQOmUow3CV7CCmUropy4zm50MVHwyhucpTE7EIXU49WHhcbWte-4vGn_eXqcqNKAQrhLB5FxCVVncQj_qSOZbVdtgiBEoKwygTD1gDTRDmDt9sXeHvILtuKkBt1QOvnMx-bTG1MrnIIgE94MoWiu3kOwUdcm7rnbhsRCuY7rSNYAN2OOipUXe4BOHoraYSqCWLT9fDXep4yA1Npz8Uvg?width=5520&amp;height=4140&amp;cropmode=none" alt="最初之作" style="zoom: 10%;" />
+<img src="https://pxscdg.sn.files.1drv.com/y4mLkQQOmUow3CV7CCmUropy4zm50MVHwyhucpTE7EIXU49WHhcbWte-4vGn_eXqcqNKAQrhLB5FxCVVncQj_qSOZbVdtgiBEoKwygTD1gDTRDmDt9sXeHvILtuKkBt1QOvnMx-bTG1MrnIIgE94MoWiu3kOwUdcm7rnbhsRCuY7rSNYAN2OOipUXe4BOHoraYSqCWLT9fDXep4yA1Npz8Uvg?width=5520&amp;height=4140&amp;cropmode=none" alt="最初之作" style="zoom: 40%;" />
 
 <center>最初之作</center>
 
@@ -56,7 +56,7 @@ excerpt:  Canarypwn, 出生过, 在读CS，将来要死。
 
 最后，自招变严。竞赛生的心情也随政策起伏。不过与他们，竞赛是“**学着这个挺好玩的顺便进大学**”，而于我则变成了“听说这么走进大学方便”。ysc去了HUST，我认为他应该得到更多；另一位自招去了BIT；而我，也许高中时我还是凭借梦想做了些小东西的缘故，最后也进了满意的学校。
 
-<img src="https://pxsadg.sn.files.1drv.com/y4mTFIzweppLvnCqAu0FYfLO3_K8zTyUgyZuFkVvo_n_c1i6HgwVYSa541MuD1ygex1pB4AIxH7LVQ2uBoWZlW6oPAMPzdN3_nXHOa7razf_whcZt-jFWcJaL5jskFMhRyGFxMowXN-aUVAgkmNO84MUnb5OJZHfjY8644Qnc8pxmNkcHflt8FS85BOhebCDkrN8r2ZsxAFwPUKDxPWhRoIXg?width=4048&amp;height=3036&amp;cropmode=none" style="zoom: 10%;" />
+<img src="https://pxsadg.sn.files.1drv.com/y4mTFIzweppLvnCqAu0FYfLO3_K8zTyUgyZuFkVvo_n_c1i6HgwVYSa541MuD1ygex1pB4AIxH7LVQ2uBoWZlW6oPAMPzdN3_nXHOa7razf_whcZt-jFWcJaL5jskFMhRyGFxMowXN-aUVAgkmNO84MUnb5OJZHfjY8644Qnc8pxmNkcHflt8FS85BOhebCDkrN8r2ZsxAFwPUKDxPWhRoIXg?width=4048&amp;height=3036&amp;cropmode=none" style="zoom: 40%;" />
 
 ## 答案
 
