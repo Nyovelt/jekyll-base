@@ -42,6 +42,10 @@ excerpt:  Canarypwn, 出生过, 在读CS，将来要死。
 
 凭借推优和一些幸运，我逃避了中考，考入了市重点中学的重点班。就此，我迈上了一个更大的平台，也认识了高中的同桌 ysc 。说来也巧，在新生群水群的时候看到一个同学说什么VB不是小学就应该会的之类的话的时候<del>结果发现他是真的会，TQL</del>，我就和他取得了联系。<del>并在当天对校园网进行了一次不成功的黑魔法。</del>ysc是真的强，也是我遇到的**最优秀的老师**。在他的带领和引荐下，我加入了学校的最强的编程社团——机器人社，也是他让我决定了，**以后要做计算机科学家**。
 
+<img src="https://pxscdg.sn.files.1drv.com/y4mLkQQOmUow3CV7CCmUropy4zm50MVHwyhucpTE7EIXU49WHhcbWte-4vGn_eXqcqNKAQrhLB5FxCVVncQj_qSOZbVdtgiBEoKwygTD1gDTRDmDt9sXeHvILtuKkBt1QOvnMx-bTG1MrnIIgE94MoWiu3kOwUdcm7rnbhsRCuY7rSNYAN2OOipUXe4BOHoraYSqCWLT9fDXep4yA1Npz8Uvg?width=5520&amp;height=4140&amp;cropmode=none" alt="最初之作" style="zoom: 10%;" />
+
+<center>最初之作</center>
+
 在ysc和社团老师的指导下，高一的时候我参加了一场未来风暴的机器人比赛和另一个创新型的机器人比赛，并对Arduino 进行编程，也获得了一些奖。之后蹭了学长的遗留课题，拿了市创赛一等奖。也是这个时候，我听说了诸多学长通过创新赛事进同济拿自招的故事，**于是从这时开始，编程于我的性质就发生了改变**。
 
 在高二暑假我参加了能让人“拿自招”的创新赛事。原本的目标是国一，而且成品也达到了预期，至少在我看来，它是我做过最好的几个东西之一。在隔天，接到了国三的消息——安慰奖。(虽然最后还是帮我拿到了北邮自招)。当时的我并不满意，甚至想让社团提出申诉，我不甘心，似乎如此多的花费在科创上的课余时间都显得毫无意义。**在创造中得到的快乐已经无法填补失去奖牌的不满**。
@@ -51,6 +55,8 @@ excerpt:  Canarypwn, 出生过, 在读CS，将来要死。
 幸好，高中还是存在一些有理想的人的，比如社团老师。他在招新的时候似乎从来不会告诉我们进他的社团多么有用，也时时刻刻提醒着我们要发现创新的乐趣所在。有一位社团同学即使在高三也还在参加科创比赛，这需要多大的决心和热爱呢。
 
 最后，自招变严。竞赛生的心情也随政策起伏。不过与他们，竞赛是“**学着这个挺好玩的顺便进大学**”，而于我则变成了“听说这么走进大学方便”。ysc去了HUST，我认为他应该得到更多；另一位自招去了BIT；而我，也许高中时我还是凭借梦想做了些小东西的缘故，最后也进了满意的学校。
+
+<img src="https://pxsadg.sn.files.1drv.com/y4mTFIzweppLvnCqAu0FYfLO3_K8zTyUgyZuFkVvo_n_c1i6HgwVYSa541MuD1ygex1pB4AIxH7LVQ2uBoWZlW6oPAMPzdN3_nXHOa7razf_whcZt-jFWcJaL5jskFMhRyGFxMowXN-aUVAgkmNO84MUnb5OJZHfjY8644Qnc8pxmNkcHflt8FS85BOhebCDkrN8r2ZsxAFwPUKDxPWhRoIXg?width=4048&amp;height=3036&amp;cropmode=none" style="zoom: 10%;" />
 
 ## 答案
 
@@ -78,7 +84,11 @@ HKU的卓尔这么回答我，"**过程本身就是一种目的**", "选择一�
 
 高中时一直被”自由而无用“所吸引，而”无用之用便是有用“。之前我做过太多有用的事情，无用的事情做的太少，所以我感到自己得不到自由。就像"Go-ToDo"一样，安排好了生活中的每一件事，然后加速着驶向事件的终结。当清单上的任务都已完成的时候，生活还剩什么呢。
 
-对于计算机科学和我的生活，我想说" **stay Simple, stay naive.** "就像陈萌萌说的一样，保持轮子哥一般的童心。我不再一天到晚想着怎么走捷径拿到三年后 master 的 offer ，进哪个组有用，以后工作年薪多少多少，什么语言是现在的潮流云云。招办，传教，顶级键盘和相机，哪里好吃哪里好玩，这些和我的梦想无关，离我又很远的的事情置身事内对理想的实现又有什么用处呢？反而让人看起来像歇斯底里的偏执狂。**我最初学C和单片机的时候也没想过他们会帮我进入华夏中路叁玖叁号，我也不是为了进叁玖叁号而学C和单片机。**
+对于计算机科学和我的生活，我想说" **stay Simple, stay naive.** "就像陈萌萌说的一样，保持轮子哥一般的童心。我不再一天到晚想着怎么走捷径拿到三年后 master 的 offer ，进哪个组有用，以后工作年薪多少多少，什么语言是现在的潮流云云。招办，传教，顶级键盘和相机，哪里好吃哪里好玩，各种宏大叙事。这些和我的梦想无关，离我又很远的的事情置身事内对理想的实现又有什么用处呢？反而让人看起来像歇斯底里的偏执狂。**我最初学C和单片机的时候也没想过他们会帮我进入华夏中路叁玖叁号，我也不是为了进叁玖叁号而学C和单片机。**
+
+<img src="https://rbsjdg.sn.files.1drv.com/y4mHoLVhBZANc0qTEVuOB2yYjo2lAf5MYLGiMM-2eiorXxxlfb6aFKl0qgpq_uNVEMJ2G1eJMXN0bNCV2dcEkouIXDW_jf-sVqOm-vNX1BTh9lLkjlDLn_7ARANPnqttMx033KTihKDGMBBwYMzj83_CZN4jis2dj9Wct_3XKf6qaSsZDUwUJhprI1TwaCfxFoi-IPfE9e33EMC7CjlOrUDGA?width=1080&amp;height=720&amp;cropmode=none" alt="SHTech" style="zoom: 50%;" />
+
+<center>华夏中路叁玖叁号</center>
 
 反而，我会引用 docktor-X 中一句中二的台词：
 
