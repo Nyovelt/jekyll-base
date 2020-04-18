@@ -104,6 +104,12 @@ HKU的卓尔这么回答我，"**过程本身就是一种目的**", "选择一�
 
 
 
+## 联动
+
+- [ vizna对《计算机科学与大白日梦》的回复 ](https://aaaab3n.co/life/2020/04/18/an-reply)
+
+
+
 ## Source
 
 - [自招偏南-一个时代性的大梦](https://mp.weixin.qq.com/s/dOpMAA6P8AWQY3cSgX0hmg)
