@@ -36,7 +36,7 @@ excerpt:  Canarypwn, 出生过, 在读CS，将来要死。
 
 这段时期也是最纯粹最朴素最幼稚的时期，我不断的去寻找新的东西，去尝试新的东西。**计算机对我来说更像是如同巧克力一般的甜美的东西。**我这时就像喜之郎广告中的主角一样，对未来有一种不切实际的憧憬。
 
-<img src="https://rbr9dg.sn.files.1drv.com/y4mGIUYeFyVsY89Ur1OE88CR9aK-xuyodXh9pI8T1hFqL3syNKGv6XgU7bzj4cLh7ZEIigXFDamVTCyyRFjLGcSEKuy6_l5liXU-wwCq-5ItvC7rgjJ6mwhEYWdNmiuH5IOUhqXlvCACqzpqXL-XcCPACKcVjLGHVCpniyrZQLNWRdU7WhweZdcuwei3GOWWsBPyIVcvljB87T3QO6j-jYi3A?width=2036&amp;height=934&amp;cropmode=none" alt="Excalibur - Mili" style="zoom:25%;" />
+<img src="https://rbr9dg.sn.files.1drv.com/y4mGIUYeFyVsY89Ur1OE88CR9aK-xuyodXh9pI8T1hFqL3syNKGv6XgU7bzj4cLh7ZEIigXFDamVTCyyRFjLGcSEKuy6_l5liXU-wwCq-5ItvC7rgjJ6mwhEYWdNmiuH5IOUhqXlvCACqzpqXL-XcCPACKcVjLGHVCpniyrZQLNWRdU7WhweZdcuwei3GOWWsBPyIVcvljB87T3QO6j-jYi3A?width=2036&amp;height=934&amp;cropmode=none" alt="Excalibur - Mili" style="zoom:50%;" />
 
 ## 高中与高考
 
