@@ -71,4 +71,4 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/)$\int$    $\int$[shinohara-rin](https://
 
 ## 其它
 
-<a href="https://info.flagcounter.com/Lgum"><img src="https://s11.flagcounter.com/count2/Lgum/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<a href="https://info.flagcounter.com/vtjd"><img src="https://s04.flagcounter.com/count2/vtjd/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_12/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
