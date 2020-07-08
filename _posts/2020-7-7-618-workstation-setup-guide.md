@@ -51,18 +51,18 @@ excerpt: Manjaro + Windows
 
 - 华硕（ASUS）PRO WS X570-ACE 主板 是一块工作站主板，特点是支援ECC UDIMM内存， 主板用料较好， 有一个华硕自家的远程管理系统( 类 IPMI )， 共有三条pcie插槽(pcie 3.0 *16*+  pcie 3.0 * 8)。
 
-- 因为<del>上科大水电免费</del>学习需要，所以预计是24*7工作。ECC内存对于系统稳定性的提升是很大的。
+- 因为<del>上科大水电网免费</del>学习需要，所以预计是24*7工作。ECC内存对于系统稳定性的提升是很大的。
 
 - P4500, 英特尔企业级SSD，TLC颗粒， U.2接口
 
-- 虽然各种参数上都不如猫扇（例如风压），但口碑较为不错，已经在学校内见到一个有组织的传教团队了（
+- 利民虽然各种参数上都不如猫扇（例如风压），但口碑较为不错，已经在学校内见到一个有组织的传教团队了（
 
 - 因为会上双卡，所以上了850W的电源
 
 - 目前，
 
   - 由于英伟达在CUDA领域较早的布局和在教育行业的疯狂送卡行为（一个电话连夜免费快递六块V100），AMD目前在机器学习和教育领域的生态已经落后n个身位了
-  - 机器学习要求显存8G起步（测试结果来自 @murez 用openai跑历史的期末论文）
+  - 机器学习要求显存8G起步（测试结果来自 @[murez](https://blog.murez.site/) 用openai跑历史的期末论文，注，后来他又自己写了一篇）
   - 同一个核心的丐版和顶级非公的性能差距不会超过5%
   - CPU更容易成为性能瓶颈
   - 2060S是20系列当前性价比较高的一张卡
@@ -83,6 +83,8 @@ excerpt: Manjaro + Windows
 
 # 双系统
 
+
+
 因为学习需求，所以准备采用 host 系统上通过虚拟机来运行若干个 guest 系统。目前主流的方案有 proxmox, unraid, Hyper-V, kvm 等。为了更加开放和性能损失更小，所以选择了用  manjaro  作为 Host  ， 跑 kvm ，再用 pcie passthrough 将显卡直通给 guest 系统的 Windows 。
 
 
@@ -96,6 +98,8 @@ excerpt: Manjaro + Windows
 
 
 这里顺便吐槽一下学校的图书与信息中心，连交大的镜像源都会劫持。因此多了一步添加host。
+
+
 
 ![host](https://soygaq.sn.files.1drv.com/y4mrj9Rj0zOgz0EOIpkpnRyWadifw77lrYkxuQMCoJlSkJEEiLkIJx9MgDtVMuNPx8Xx8tlW4ikTXmvBBGkshjsRuRwU6xGGshcP3rCqHE6i9RL5BZ_W_x2r5IpLoZd8U3ssvWXhFskOPzXTE5jR4cLyE76h1Vk9awfc0MRuBe6JlwYppA6D02qJM6w3Zlm4ugI-gfoJGaYir-hwE4XCv_Bow?width=1306&height=770&cropmode=none)
 
@@ -211,6 +215,8 @@ Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性�
 
 当开机成功后，右键计算机 - 管理 - 设备管理器 ， 然后对于未知的 pcie 设备选择安装驱动。 将驱动文件夹指向 你的光盘即可。 目前我一共装了三个驱动。 分别是硬盘，网卡还有一个virtio ballon，用于CPU的调配。
 
+![win](https://qpycaq.sn.files.1drv.com/y4mQCc-SSCUuO-wJ3MZpJunX3bt_2UqQ2j_VDKysFNtTeMUENmsLOIYaKv0wnuUS6lHsQcezjlB_eUiziJCOBOcpsyIpi-UbKSyFfmG0DA2ig6B5DT6YP4wLttKpxjYKEd6UufnlChg7iENsoh-LxpLNdBJj5lIphZtZrwGkW0RkjOvEFEJMUphtNTFGJ1QHd49NaJjB0TrmAzR1zmEFfeoig?width=1280&height=819&cropmode=none)
+
 ## 显卡
 
 英伟达显卡的设置稍有不同。
@@ -253,7 +259,9 @@ win10替换为你的虚拟机的“域”名字
 
 添加一个 12 位的 字母数字混合的 vender_id 然后开启 kvm hide 
 
-![win](https://qpycaq.sn.files.1drv.com/y4mQCc-SSCUuO-wJ3MZpJunX3bt_2UqQ2j_VDKysFNtTeMUENmsLOIYaKv0wnuUS6lHsQcezjlB_eUiziJCOBOcpsyIpi-UbKSyFfmG0DA2ig6B5DT6YP4wLttKpxjYKEd6UufnlChg7iENsoh-LxpLNdBJj5lIphZtZrwGkW0RkjOvEFEJMUphtNTFGJ1QHd49NaJjB0TrmAzR1zmEFfeoig?width=1280&height=819&cropmode=none)
+之后就可以当正常显卡使用了，安装驱动后跑 CUDA 和 3D 项目没有发现明显的问题。
+
+
 
 ## CPU
 
