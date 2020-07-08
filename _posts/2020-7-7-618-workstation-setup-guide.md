@@ -39,6 +39,7 @@ excerpt: Manjaro + Windows
 
 外加一根 U.2连接线 
 
+外加问同学暂时借了块970， 以后会收一块RX580
 
 
 **ALL 11848 ** 
