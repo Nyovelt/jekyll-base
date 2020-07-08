@@ -126,7 +126,7 @@ Output: Virtualization:                  AMD-V
 
 ## 检查内核
 
-```
+```bash
 # 这里输出中需要包含 kvm kvm_intel
 $ lsmod | grep kvm
 
@@ -141,7 +141,7 @@ $ sudo modprobe virtio
 
 ## 安装所需的软件包
 
-```
+```bash
 
 $ sudo pacmna -Sy qemu libvirt ebtables dnsmasq bridge-utils openbsd-netcat
 # 图形化的管理界面，如果使用带桌面环境的操作系统可选安装。我这里安装
