@@ -83,3 +83,4 @@ U.2连接线
 
 # 双系统
 
+因为学习需求，所以准备采用 host 系统上通过虚拟机来运行若干个 guest 系统。目前主流的方案有 proxmox, unraid, Hyper-V, kvm 等。为了更加开放和性能损失更小，所以选择了用  manjaro  作为 Host  ， 跑 kvm ，再用 pcie passthrough 将显卡直通给 guest 系统的 Windows 。
