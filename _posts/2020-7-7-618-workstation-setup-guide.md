@@ -1,5 +1,5 @@
 ---
-title: 618买电脑指南
+title: 618电脑指南
 date: 2020-7-7 9:00:59 +0800
 category: Life
 tags: Life
