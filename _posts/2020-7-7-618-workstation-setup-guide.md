@@ -184,7 +184,7 @@ sudo systemctl start libvirtd
 
 Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性能相比Nat和SATA有很大的提升。
 
-(https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
+[https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html](https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
 
 首先将硬盘改成virtio总线以增加性能
 
@@ -192,9 +192,9 @@ Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性�
 
 下载virtio驱动预备
 
-下载地址页面：[https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html](https://link.zhihu.com/?target=https%3A//docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
+下载地址页面：[https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html](https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
 
-如：[https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](https://link.zhihu.com/?target=https%3A//fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
+如：[https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
 
 创建一个光驱，把驱动放进去
 
@@ -248,7 +248,7 @@ https://www.techpowerup.com/vgabios/
 
 当然事情没有那么简单，NVIDIA屏蔽了消费级显卡的驱动在虚拟机上的加载 (黄氏刀法.JPG) 所以我们需要编辑 kvm 的配置文件来骗过老黄。
 
-https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF
+[https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF)
 
 ```
 $ sudo EDITOR=nano virsh edit win10
