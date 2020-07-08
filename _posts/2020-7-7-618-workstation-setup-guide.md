@@ -220,6 +220,8 @@ Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性�
 
 ## 显卡
 
+注意开了显卡以后就不用再开虚拟显卡和虚拟显示器了
+
 英伟达显卡的设置稍有不同。
 
 要让显卡直通，先要启用iommu，然后让pcie设备使用修改的rom。启动iommu在主板里就可以设置，关键是昨天的那个rom file那一行xml。
@@ -282,7 +284,7 @@ win10替换为你的虚拟机的“域”名字
 
 # 参考与致谢
 
-- [KVM (简体中文)]([https://wiki.archlinux.org/index.php/KVM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://wiki.archlinux.org/index.php/KVM_(简体中文)))
+- [KVM (简体中文)]([https://wiki.archlinux.org/index.php/KVM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://wiki.archlinux.org/index.php/KVM_(简体中文)))	
 
 - [在 Arch Linux (Manjaro) 中使用 KVM 虚拟机]([https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch%20(Manjaro)/](https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch (Manjaro)/))
 
