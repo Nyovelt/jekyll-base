@@ -87,6 +87,10 @@ U.2连接线
 
 
 
+所以我将借来的GTX 970 插在了靠近CPU的pcie槽，作为Manjaro的显示输出。将2060S插在了第二根pcie槽，作为将来直通给WIndows的显卡。未来，将显示线插在970上就可以显示Manjaro，将显示线插在2060S就可以显示Windows。非常方便。
+
+
+
 经过简单的配置，Manjaro到了可用的程度。
 
 
@@ -169,9 +173,57 @@ sudo systemctl start libvirtd
 
 ## 配置虚拟机
 
+具体配置和 *配置显卡直通* 部分类似不过有几个点
 
+## virtio
 
+Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性能相比Nat和SATA有很大的提升。
 
+(https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
+
+​	
+
+## 显卡
+
+英伟达显卡的设置稍有不同。
+
+要让显卡直通，先要启用iommu，然后让pcie设备使用修改的rom。启动iommu在主板里就可以设置，关键是昨天的那个rom file那一行xml。
+
+![rom](https://soyaaq.sn.files.1drv.com/y4m9IVjh_nr30EjIjHc_AgdD6kHqmQ4szPoMm9mmoopNgjAsbgTRQ_n9EVRdQjEKdY9oqM3j4UhCTC7zVMMk7ZcLGotRqeljOyOvPTAW5CNaAbtxY4IFaTqWvvxCJlzcx-AiQnyZXL3BGrCUWvLFnSj9OscfXKWbbvndnxOC4gRci4yop5Kf_JH2pR5r5IiqIjTI2syPkCVyjVZRF7ismgGrg?width=1922&height=1310&cropmode=none)
+
+这是一个显卡的修改bios。首先要获得显卡的原生Bios。
+
+最简单的办法是在Windows上的GPU-Z上导出Bios
+
+![GPUZ](https://soybaq.sn.files.1drv.com/y4mZk-xCzuHAwpTVd08CCbp9znoZH08UsFrksRcgwJfYuAoUJga0-WSCcuyrpYfzIHMvJjJ9C0LP0vYWGQZdi-I1C5VIP2Mr6x2n_89MnVUrM9t0u4DS7RjMAnNn5lM0Vfgnygef3pKX4kMPL_MGbDzDApyBLtNHKM7bSyBn6SH3ulT82Vi11DawuaVSUi3Pbnu-K8qHOupm90ybNKMod7IfQ?width=1280&height=335&cropmode=none)
+
+如果已经装好了 Manjaro，也可以在这个网站找到显卡BIOS
+
+https://www.techpowerup.com/vgabios/
+
+然后就是修改ROM了。首先用 WINHEX 或者 HXD 来打开十六进制文件。全文搜索  VGA 。删除 55 AA 的全部内容。前面基本都是 nvflash 啥的信息，这些可能会导致显卡不支持 efi 。
+
+![](https://soycaq.sn.files.1drv.com/y4mZHzeHTw5XRXZpDnGXB0hPiGaQ-n0ztcqxHgr6p4sB8n5TqdbmzeAegrBcz6NFJ0M6IfcJUmXjscSyJvwH-99So5wuih8H9YPP2_3YnfXekAsrgtj6lYKPLz6CM2Jsn9t5gju4ijV4HuT0yb1945jd0dGXV9XRyHDRIESQlQJVUODkkRtVetPsdSJIABQeV31MeDCU1V_bcC3lGkWs77hnQ?width=936&height=582&cropmode=none)
+
+**最后的文件应该是55 AA顶格的**
+
+​	![结果](https://soylaq.sn.files.1drv.com/y4mqaWim6oG4HewSk7h-1MOy6GxHfPL4eHX28fxPRmgbCELv7xZ7fb-5aGC2_31AUDj-6pIbhdRavtGP2mq5aFkwAqbzfnM50O1y5bQ07kttLlANTTckXzZBiSmVyTo4YgqcWu8ypDpgG20VbKskDPpjPhWDujsMWARqSXzY6BMM4m6rrMmJLNg2zKxz5VbG3Kn6B2NWtJAGgmYhhMg7uPW1Q?width=901&height=586&cropmode=none)
+
+然后保存为 .rom 文件， 复制到 Manjaro 里面。在虚拟系统管理系统中的xml文件中加一行<rom file = >用于加载显卡bios
+
+当然事情没有那么简单，NVIDIA屏蔽了消费级显卡的驱动在虚拟机上的加载 (黄氏刀法.JPG) 所以我们需要编辑 kvm 的配置文件来骗过老黄。
+
+https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF
+
+```
+$ sudo EDITOR=nano virsh edit win10
+```
+
+win10替换为你的虚拟机的“域”名字
+
+![win10.xml](https://soymaq.sn.files.1drv.com/y4maolZ5cTRWpuof5nWjhUStCbbkPZYoI_n8Pqf56upTKzY-wlYRB2xgWn0VCko78pOfXrX5lbQwNWWvhcRIRcGXDB4tq--DEVpMSr041kzbgXt3x8Esfw7vFLdoUeghvCgDbJNukTy2Bhc2ViCGMBXtF1ApbqYcfnjcFfr3ENq8_fmYDUDO0xnvuzQy_5nRogaWa3TUk1aZqF1ED4MYcs2Og?width=2032&height=1200&cropmode=none)
+
+添加一个 12 位的 字母数字混合的 vender_id 然后开启 kvm hide 
 
 # 参考与致谢
 
