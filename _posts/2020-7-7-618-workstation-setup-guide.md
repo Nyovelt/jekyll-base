@@ -253,7 +253,7 @@ win10替换为你的虚拟机的“域”名字
 
 添加一个 12 位的 字母数字混合的 vender_id 然后开启 kvm hide 
 
-
+![win](https://qpycaq.sn.files.1drv.com/y4mQCc-SSCUuO-wJ3MZpJunX3bt_2UqQ2j_VDKysFNtTeMUENmsLOIYaKv0wnuUS6lHsQcezjlB_eUiziJCOBOcpsyIpi-UbKSyFfmG0DA2ig6B5DT6YP4wLttKpxjYKEd6UufnlChg7iENsoh-LxpLNdBJj5lIphZtZrwGkW0RkjOvEFEJMUphtNTFGJ1QHd49NaJjB0TrmAzR1zmEFfeoig?width=1280&height=819&cropmode=none)
 
 ## CPU
 
@@ -274,5 +274,11 @@ win10替换为你的虚拟机的“域”名字
 # 参考与致谢
 
 - [KVM (简体中文)]([https://wiki.archlinux.org/index.php/KVM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://wiki.archlinux.org/index.php/KVM_(简体中文)))
+
 - [在 Arch Linux (Manjaro) 中使用 KVM 虚拟机]([https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch%20(Manjaro)/](https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch (Manjaro)/))
+
 - [[pavolelsig](https://github.com/pavolelsig)/**[passthrough_helper_manjaro](https://github.com/pavolelsig/passthrough_helper_manjaro)**](https://github.com/pavolelsig/passthrough_helper_manjaro)
+
+- [Luv Letter - dual-system-osx-kvm-tutorial ](https://luvletter.moe/dual-system-osx-kvm-tutorial/)  也是 Luv Letter 大佬给出的计算机配置
+
+- 感谢 [Kiwi](https://nyan.kiwi.cat/) 提供的帮助
