@@ -37,7 +37,7 @@ excerpt: Manjaro + Windows
 
 [先马（SAMA）黑洞 黑色 中塔式机箱](https://item.jd.com/1842778.html)  JD 247.00
 
-U.2连接线 
+外加一根 U.2连接线 
 
 
 
@@ -169,17 +169,41 @@ sudo systemctl start libvirtd
 
 参考: https://github.com/pavolelsig/passthrough_helper_manjaro
 
-
+有视频，也有脚本，挺清晰的。
 
 ## 配置虚拟机
 
-具体配置和 *配置显卡直通* 部分类似不过有几个点
+具体配置和 *配置显卡直通* 部分类似不过有几个点需要注意。
 
 ## virtio
 
 Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性能相比Nat和SATA有很大的提升。
 
 (https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
+
+首先将硬盘改成virtio总线以增加性能
+
+![disk](https://qpygaq.sn.files.1drv.com/y4m3_hXpflJqT0pkajwotoQj6Qz5lEBcrcCWrcONnqUMB1lOnjJtArExo8zuBu2ku4jV5TXA3Xcz5bmYTB_SHTEcN76NRuP1E-_yNzHWh5xMY9GZQlmwf12EquK9LaWg8yX9f_LTKS1a-d4y5BDHqlZRInyYzAp_YveBVC_vgDYTM-n2numI83KSt-6pHp2FHpR8hfMnM-mAfvPE3ghhhcmiw?width=1354&height=1118&cropmode=none)
+
+下载virtio驱动预备
+
+下载地址页面：[https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html](https://link.zhihu.com/?target=https%3A//docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
+
+如：[https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso](https://link.zhihu.com/?target=https%3A//fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
+
+创建一个光驱，把驱动放进去
+
+![virtio](https://qpyzaq.sn.files.1drv.com/y4mgdifFkECc5ueB-c39ZB9Vj9bA5KUWmHhAlbNdJhryqULNcGT3TGcrCbwBU9KBUEqUzrCzjH9jfShdhJ3SGV5wEgjglKGCIy1aduC9QtAYBg_mR2Y9OvT97GUxtUnI_DIotSYYZjjdN-XW8Wau-c6T9yRnkomtuFTHnGwlJ8ZNXdmnQzoEHW2uYeDjcXjxP3ZY76Hlp70qnoUio9FzEZsrQ?width=1393&height=1216&cropmode=none)
+
+可以再做一个准备，把网卡也virtio化
+
+![网卡](https://qpyaaq.sn.files.1drv.com/y4mlDYJ0pV5i40V-rSHks2bU0ZuqdRlpcezP9HIJnqwBXNfBvQoFGpbxRgQF3yARPfS7WF_OOqLV7vV2n0S7kAow-alkZEAVhkEPm7zZMT5qPPw21i1JMI4gdh1iwrWv3Aes2Y2tqx_5_7Ntini0NhS5PgZXJJEte178Mnkh6D8havpBDm8XB0x0izVWttp3Yn4gftyvfrXZ5BBmjlaOxC_zA?width=1448&height=1108&cropmode=none)
+
+同时也可以把 usb host 作为 pcie 设备直通给 WIndows ，这样速度和便利性都比较好。但这样 Manjaro 上面就无法访问 usb 设备了。 如果你有多余的 pcie 槽， 可以考虑买一个 pcie 转 usb 的转接卡，某宝大概几十块的样子。
+
+
+
+![pcie](https://qpybaq.sn.files.1drv.com/y4mdG-2uXMoZzVTFlKHFBKdKgH-Ny1mp4jVG2FSwfHGbUy4Vz2Z58pde2ByW51LlfCiSqk80YVASpGeoY4rYmlBLWnpHEHRg8kdxaaWpHw11dN51vRbljQ4pNPiqI74QqxNuRVyD5Y3CqdwVAEaT31Dv3U1pkrJhH4Ugu5s9nmaNLL7e_hKiQPFLuVJh7qpCC-pO752rWjAmqIetTMoHDXGkg?width=1909&height=1184&cropmode=none)
 
 
 
