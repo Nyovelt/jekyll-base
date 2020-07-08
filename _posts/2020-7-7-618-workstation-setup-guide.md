@@ -62,7 +62,7 @@ excerpt: Manjaro + Windows
 - 目前，
 
   - 由于英伟达在CUDA领域较早的布局和在教育行业的疯狂送卡行为（一个电话连夜免费快递六块V100），AMD目前在机器学习和教育领域的生态已经落后n个身位了
-  - 机器学习要求显存8G起步（测试结果来自 @[murez](https://blog.murez.site/) 用openai跑历史的期末论文，注，后来他又自己写了一篇）
+  - 机器学习要求显存8G起步（测试结果来自 @ [murez](https://blog.murez.site/) 用openai跑历史的期末论文，注，后来他又自己写了一篇）
   - 同一个核心的丐版和顶级非公的性能差距不会超过5%
   - CPU更容易成为性能瓶颈
   - 2060S是20系列当前性价比较高的一张卡
@@ -77,7 +77,7 @@ excerpt: Manjaro + Windows
 
 # 装机
 
-<bilibili>
+
 
 
 
