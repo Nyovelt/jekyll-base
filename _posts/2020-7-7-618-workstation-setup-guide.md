@@ -87,3 +87,94 @@ U.2连接线
 
 
 
+经过简单的配置，Manjaro到了可用的程度。
+
+
+
+这里顺便吐槽一下学校的图书与信息中心，连交大的镜像源都会劫持。因此多了一步添加host。
+
+![host](https://soygaq.sn.files.1drv.com/y4mrj9Rj0zOgz0EOIpkpnRyWadifw77lrYkxuQMCoJlSkJEEiLkIJx9MgDtVMuNPx8Xx8tlW4ikTXmvBBGkshjsRuRwU6xGGshcP3rCqHE6i9RL5BZ_W_x2r5IpLoZd8U3ssvWXhFskOPzXTE5jR4cLyE76h1Vk9awfc0MRuBe6JlwYppA6D02qJM6w3Zlm4ugI-gfoJGaYir-hwE4XCv_Bow?width=1306&height=770&cropmode=none)
+
+
+
+## 检查CPU对虚拟化的支持
+
+可以用该命令来查看CPU是否支持虚拟化
+
+```bash
+$ LC_ALL=C lscpu | grep Virtualization
+```
+
+```
+Output: Virtualization:                  AMD-V
+```
+
+通常情况下的CPU都支持虚拟化。注意要在BIOS中开启。对于Intel处理器来说是VT-x，对于AMD处理器来说是AMD-V。
+
+![AMD-V](https://soyzaq.sn.files.1drv.com/y4mERXPVkaLI_rxTvpcxmmO8pcx3pfK1V42NpBQ8YIizjA2rUH5eN5-ZvxJtG1YXuL2K63E1GALrQnWlEQPZ2f2Dmh-nh3PTQ4oZkeOoPl7bgVXuiVagOpHZVv97SIfJdKj8xVRicV-kzfDVe8tE0nSBJyl9RTlJRRezVwUMk04BhWY2zCq6CLKvGTWocjHb5-wkuWPIf82ze7ggnwcp1QMjQ?width=1017&height=70&cropmode=none)
+
+
+
+## 检查内核
+
+```
+# 这里输出中需要包含 kvm kvm_intel
+$ lsmod | grep kvm
+
+# 这里输出中需要包含 virtio
+$ lsmod | grep virtio
+
+# 没有 virtio 时执行
+$ sudo modprobe virtio
+```
+
+
+
+## 安装所需的软件包
+
+```
+
+$ sudo pacmna -Sy qemu libvirt ebtables dnsmasq bridge-utils openbsd-netcat
+# 图形化的管理界面，如果使用带桌面环境的操作系统可选安装。我这里安装
+$ sudo pacman -Sy virt-manager
+```
+
+- qemu QEMU 软件，提供 qemu-img 等命令
+- libvirt 提供管理虚拟机、存储、网络的功能
+- ebtables 桥接网络管理，用于 default NAT 网络
+- dnsmasq DHCP DNS 服务，用于 default NAT 网络
+- bridge-utils 桥接网络管理，用于桥接网络
+- openbsd-netcat 用于通过 SSH 管理
+
+
+
+##  启动服务
+
+```bash
+# 启动虚拟机管理后台服务开机自启
+sudo systemctl enable libvirtd
+
+# 启动虚拟机管理后台服务
+sudo systemctl start libvirtd
+
+```
+
+
+
+## 配置显卡直通
+
+参考: https://github.com/pavolelsig/passthrough_helper_manjaro
+
+
+
+## 配置虚拟机
+
+
+
+
+
+# 参考与致谢
+
+- [KVM (简体中文)]([https://wiki.archlinux.org/index.php/KVM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)](https://wiki.archlinux.org/index.php/KVM_(简体中文)))
+- [在 Arch Linux (Manjaro) 中使用 KVM 虚拟机]([https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch%20(Manjaro)/](https://www.liuzhixiang.com/2019/05/18/Using-KVM-on-Arch (Manjaro)/))
+- [[pavolelsig](https://github.com/pavolelsig)/**[passthrough_helper_manjaro](https://github.com/pavolelsig/passthrough_helper_manjaro)**](https://github.com/pavolelsig/passthrough_helper_manjaro)
