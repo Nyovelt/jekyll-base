@@ -181,7 +181,7 @@ Virtio是一种半虚拟化技术。用VIrtio虚拟的网卡和硬盘，其性�
 
 (https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html)
 
-​	
+
 
 ## 显卡
 
@@ -224,6 +224,24 @@ win10替换为你的虚拟机的“域”名字
 ![win10.xml](https://soymaq.sn.files.1drv.com/y4maolZ5cTRWpuof5nWjhUStCbbkPZYoI_n8Pqf56upTKzY-wlYRB2xgWn0VCko78pOfXrX5lbQwNWWvhcRIRcGXDB4tq--DEVpMSr041kzbgXt3x8Esfw7vFLdoUeghvCgDbJNukTy2Bhc2ViCGMBXtF1ApbqYcfnjcFfr3ENq8_fmYDUDO0xnvuzQy_5nRogaWa3TUk1aZqF1ED4MYcs2Og?width=2032&height=1200&cropmode=none)
 
 添加一个 12 位的 字母数字混合的 vender_id 然后开启 kvm hide 
+
+
+
+## CPU
+
+之前碰到了一个问题是虚拟机可以检测到12个逻辑核心，但从任务管理器中只有两个逻辑核心被用上了。后面发现是CPU的配置问题。
+
+这是我的设置。因为 3900X 是胶水总线的设计，跨 CCD 的延迟较高。所以我将在一个CCD上的物理核心对应的物理核心分配给虚拟机（也就是0-5 12-17的逻辑核心，3900X 瞬间变成 3600X）。当然你也可以将12核24线程全部分配给虚拟机，这样的话cinebench 可以跑到 7300分 （我做过超频，全核4.3GHZ， 在原生windows上可以跑到7700），但某些应用会出现无响应和推出的情况。所以我暂时还是选择分配一般的核心的方案。
+
+![CPU](https://qpydaq.sn.files.1drv.com/y4mdD81pR6OfRe1eqNfr3EWDkboUSWEwl16F0hjzapTCUxC1vUKukYg91Bmn8vhf7QJT-_0Pz2V6GUbiVyITbnOPc7HKaWqt2QOKG7orO91Nu5RPNsW40POvSor7ISuWzTjyzEGfUiniFnZr26o_GsS6VoENVRA0c9mp_oNAQRarSCuda3gPEW1B6XUOo7HyRz5dHSu17VCXxH7RqF-6qvTsg?width=1425&height=1199&cropmode=none)
+
+![](https://qpyeaq.sn.files.1drv.com/y4mHmMDOVSBk8yKYx25zcMFGyWXooWM39oLzLBydpg2VejI6Ls6b8Eecj5NldnVR_QkRofsDqrOitLMdQQELUYKp8qx5hfk0UjU70VE9wQwKJHZqoi_Clnt7MmxzIIF30mDBV-2g0AVMvugd0g4uPnOscG8zPksye2SLDXiWK2KNJ3YcXaJbngSHdHg3Gkh6EhPbtoDRfd2sHflpayH3_wwxQ?width=1538&height=1230&cropmode=none)
+
+
+
+![CPU](https://qpyfaq.sn.files.1drv.com/y4mvaCQiu9OjjUdaUw8_FhOgCmA5o2BYc0LSf59Oh-dz0akOgo3aqq2MNpTUBz0Ak8U0lfM5rKYTXWJEOBS2uoxiIsRqNa-Orvfcn25Eu7LxqSiufThws1sld-mGPz_A7Pbsng1GkKv8VWysVsui4KMN8lujM86pJogM2JWncdFeJoag2rvnc3PxGaKoy_-I80z-JfmXnlH9Be0XkdHJoEAzg?width=1445&height=1214&cropmode=none)
+
+
 
 # 参考与致谢
 
