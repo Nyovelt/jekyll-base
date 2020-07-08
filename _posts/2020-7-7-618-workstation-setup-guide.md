@@ -78,7 +78,7 @@ excerpt: Manjaro + Windows
 # 装机
 
 
-
+装机过程将会在BILIBILI见面
 
 
 # 双系统
