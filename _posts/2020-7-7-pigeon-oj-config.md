@@ -21,7 +21,7 @@ OJ 的评卷系统是通过一个 scheduler 通过 TLS 连接 Docker API 调用 
 
   # Docker Remote API TLS 认证
 
-参考链接: https://www.jianshu.com/p/a1bdc96b4163
+参考链接: [https://www.jianshu.com/p/a1bdc96b4163](https://www.jianshu.com/p/a1bdc96b4163)
 
 这里是我的配置:
 
