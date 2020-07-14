@@ -29,8 +29,8 @@ OJ 的评卷系统是通过一个 scheduler 通过 TLS 连接 Docker API 调用 
 openssl genrsa -aes256 -out ca-key.pem 4096
 openssl req -new -x509 -days 365 -key ca-key.pem -sha256 -out ca.pem
 openssl genrsa -out server-key.pem 4096
-openssl req -subj "/CN={{你的域名}}" -sha256 -new -key server-key.pem -out server.csr
-echo subjectAltName = DNS:{{你的域名}} > extfile.cnf
+openssl req -subj "/CN={你的域名}" -sha256 -new -key server-key.pem -out server.csr
+echo subjectAltName = DNS:{你的域名} > extfile.cnf
 openssl x509 -req -days 365 -sha256 -in server.csr -CA ca.pem -CAkey ca-key.pem -CAcreateserial -out server-cert.pem -extfile extfile.cnf
 openssl genrsa -out key.pem 4096
 openssl req -subj '/CN=client' -new -key key.pem -out client.csr
@@ -41,7 +41,7 @@ chmod -v 0400 ca-key.pem key.pem server-key.pem
 chmod -v 0444 ca.pem server-cert.pem cert.pem
 ```
 
-其中， `{{你的域名}}` 替换为你的域名  (e.g. aaaab3n.oj.geekpie.club)，或者直接使用 ip 。
+其中， `{你的域名}` 替换为你的域名  (e.g. aaaab3n.oj.geekpie.club)，或者直接使用 ip 。
 
 之后会生成 ca-key.pem key.pem server-key.pem ca.pem server-cert.pem cert.pem
 
