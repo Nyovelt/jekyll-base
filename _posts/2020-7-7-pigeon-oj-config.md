@@ -64,7 +64,7 @@ ExecStart=/usr/bin/dockerd -H unix:///var/run/docker.sock -D -H tcp://0.0.0.0:44
 
 ## 测试
 
-将  `cert.pem`  `key.pem`  `ca.pem` 传输到目标机器，运行命令  `curl https://{{你的域名 / IP }}:443/info --cert ./cert.pem --key ./key.pem --cacert ./ca.pem`
+将  `cert.pem`  `key.pem`  `ca.pem` 传输到目标机器，运行命令  `curl https://{你的域名 / IP }:443/info --cert ./cert.pem --key ./key.pem --cacert ./ca.pem`
 
 ![](https://sezc6g.sn.files.1drv.com/y4muK2AUHw-sGPOIck-hxy9MEfJV6iDi5ZzhDpOq6MRo0jpA_uYr-5PWuHZepntLGS0Ro94_60ot7lZ5PMqLLEulK352GavemVCQLgoWUokLhr0QfkmNvPI68DtlWAhAzVIf9iz2kn4SOV45JnzULAy0gWXQ8uEJlwPfZrSvm8hH8LAizKf7pxLqPvS5Lwe1wpoaRik3rB6EMLqB99w6fDLjQ?width=1534&height=832&cropmode=none)
 
