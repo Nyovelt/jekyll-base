@@ -63,10 +63,6 @@ $\int$[Kiwisama](https://nyan.kiwi.cat/)$\int$    $\int$[shinohara-rin](https://
 
 
 
-## Servers
-
-[以针会友](http://rbq.aaaab3n.co/)
-
 
 
 ## 其它
