@@ -1,6 +1,6 @@
 ---
-title: 我为什么对新生说'快逃('
-date: 2020-7-22 10:00:59 +0800
+title: 我为什么对新生说''快逃(''
+date: 2020-7-21 10:01:59 +0800
 category:  Life
 tags: Life
 excerpt: 快逃！
