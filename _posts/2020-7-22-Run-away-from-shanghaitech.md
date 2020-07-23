@@ -1,13 +1,15 @@
 ---
 title: 我为什么对新生说''快逃(''
-date: 2020-7-21 10:01:59 +0800
+date: 2020-7-23 10:01:59 +0800
 category:  Life
 tags: Life
-excerpt: 快逃！
+excerpt: 写于2020上海高考出分日
 
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'], inlineMath: [['$','$']] } }); </script>
 
 ...
+
+# 快逃
 
