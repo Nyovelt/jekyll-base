@@ -21,3 +21,7 @@ excerpt: 写于2020上海高考出分日
 
 ![](https://rpbviq.sn.files.1drv.com/y4mWNddP63MstN1q2CSKpzEZvO2zJpJDECc3BrfHewKUTvzGuZ0moWRVbrsqwcxZZjNJHiMhvqlYxDOOfLYqwgWOYo8L5omFHfUmrjWKuoMMIiSJHQVe32sf9x5S_OUiIJ_ZAiaRcFcRk-94o27ZVTlw5R4PYMUe4ofZgTa3q3wPiXd4OC0dP_jQiSSBMlLVVKLMKmOFvWiBTzYLU5PLPuwLQ?width=858&height=1679&cropmode=none)
 
+前一个小时是放弃复旦去hk的并介，并且他还成功的从新闻系转到了数学系。后一个小时是具备了清华，计算机，金融这三个光环的新专业。可想而知，在机构和家长眼中，这样的新专业有多少分量。
+
+
+
