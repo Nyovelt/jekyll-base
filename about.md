@@ -32,12 +32,13 @@ reward: false
     Education: ShanghaiTech University, お嬢様学科,
     Telegram: @moe_canary
     Ingress: @SCPDrKondraki, #启萌军
-    ASN: AS140622 魔法阵
+    ASN: AS140622 魔法阵 
     tags:
     [
     	路边的算命小姐告诉我是INTP, 
     	Developer - 命中注定要成为全栈工程师,
     	喜欢奶茶但确是人肉咖啡因检测机,
+    	喜欢 Switch 和 Router，
         齐泽克作品读者 拉康精神分析与黑格尔主义爱好者 唯物主义者,
         ACGN爱好者,
         泛jk主义拥护者 (即，穿上jk制服的就是jk)
