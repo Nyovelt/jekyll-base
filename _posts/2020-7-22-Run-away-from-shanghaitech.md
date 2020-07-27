@@ -76,4 +76,6 @@ excerpt: 写于2020上海高考出分日
 感谢朋友们的建议与鼓励。后续的改进意见还包括：
 
 - 就 家长对孩子志愿和未来的控制 与 孩子对自我未来的追求 两点分别展开批判与辩护
+  - 可以查看这篇草稿 ([https://1drv.ms/w/s!Au3reWMu7K2CgpliZgHDzSEE_q3CGw?e=vOQs7t](https://1drv.ms/w/s!Au3reWMu7K2CgpliZgHDzSEE_q3CGw?e=vOQs7t), 密码 2333)
+  - 内容是关于法哲学原理中的家庭
 
