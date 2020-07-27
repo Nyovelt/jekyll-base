@@ -27,19 +27,21 @@ reward: false
 {
     name: nyovelt,
     nickname: Canarypwn,
-    age: 17(permanent),  #Maybe at least 495
-    location: Shanghai,
-    Education: ShanghaiTech University,
-    Telegram: @moe_canary
-    Ingress: @SCPDrKondraki,
     
+    age: 因被诅咒而永远困在了17岁  #Maybe at least 495
+    location: Shanghai, 
+    Education: ShanghaiTech University, お嬢様学科,
+    Telegram: @moe_canary
+    Ingress: @SCPDrKondraki, #启萌军
+    ASN: AS140622 魔法阵
     tags:
     [
-    	INTP - 请像对待一只猫一样的对待咱,
-    	Developer - 立志成为全栈工程师,
-        齐泽克作品读者 拉康精神分析与黑格尔主义爱好者 唯物主义者 ,
+    	路边的算命小姐告诉我是INTP, 
+    	Developer - 命中注定要成为全栈工程师,
+    	喜欢奶茶但确是人肉咖啡因检测机,
+        齐泽克作品读者 拉康精神分析与黑格尔主义爱好者 唯物主义者,
         ACGN爱好者,
-        泛jk主义的支持并实践者，即，穿上jk制服的就是jk（逃
+        泛jk主义拥护者 (即，穿上jk制服的就是jk)
     ]
 }
 ```
