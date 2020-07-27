@@ -9,7 +9,7 @@ excerpt: 写于2020上海高考出分日
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'], inlineMath: [['$','$']] } }); </script>
 
-...
+写于上海高考出分周
 
 对于一个已经度过大学一年的人来说，填志愿和高考的过程依旧给我留下了很大的创伤，以至于到今年高考出分的时候，我还在梦中交了一次高考白卷。作为一个经历过填志愿，也听说过很多故事的人，我觉得还是有一些经验可以分享的。
 
