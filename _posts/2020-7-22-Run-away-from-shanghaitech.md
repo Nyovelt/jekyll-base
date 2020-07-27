@@ -69,3 +69,11 @@ excerpt: 写于2020上海高考出分日
 
 ![](https://sfvxrq.sn.files.1drv.com/y4m4xUrwH3YqFrQB_dswHC-r_EE6MARb_F7VDv9K3-7q3lpFyITsUbA8bOB5cuxSZfkTFEFdgQEUTk681PoaPyJbbwLIaebThB0j93Uc-O3mI6AoACd6cfGwUqVpUlSjHLn9mrurcxxLyb6QfT8ivMb9mXDQFg4CqQRh1oZ28Z3u2LvNRXaJuxdwP4MWD8j5_OAdopK4CyN1MhnSHP3IlxTIQ?width=684&height=1436&cropmode=none)
 
+
+
+# 后记
+
+感谢朋友们的建议与鼓励。后续的改进意见还包括：
+
+- 就 家长对孩子志愿和未来的控制 与 孩子对自我未来的追求 两点分别展开批判与辩护
+
