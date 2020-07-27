@@ -27,7 +27,6 @@ reward: false
 {
     name: nyovelt,
     nickname: Canarypwn,
-    
     age: 因被诅咒而永远困在了17岁  #Maybe at least 495
     location: Shanghai, 
     Education: ShanghaiTech University, お嬢様学科,
