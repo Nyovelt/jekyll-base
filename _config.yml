@@ -1,41 +1,24 @@
-sass:
-  style: compressed
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: "assets/img"
-    values:
-      image: true
-
-title: Canarypwn's Naïve Blog
-name: Canarypwn
-description: Stop talking , just coding.
-url: https://aaaab3n.moe
-github: https://github.com/showzeng/Minimalism
-rss: true
-copyright_time: 2020
-
+title: "Jekyll-Theme-MDUI"
+description: "A Jekyll theme based on MDUI"
+url: 
+baseurl: ""
+author: "KeJun"
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 plugins:
-  - rouge
-  - kramdown
+  - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-feed
-  - jekyll-seo-tag
-  - jemoji
 
 exclude:
-  - script
-  - docs
-  - vendor
+  - package.json
+  - node_modules
+  - gulpfile.js
   - Gemfile
   - Gemfile.lock
-
-show_excerpt: true
-
+  - jekyll-theme-mdui.gemspec
+  - LICENSE.txt
+  - README.md
+  - vendor
+  - docs
