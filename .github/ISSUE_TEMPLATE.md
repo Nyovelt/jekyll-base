@@ -5,6 +5,7 @@
 - [ ] [jekyll-theme-mdui documentation ](http://mdui.kejun.me/#/)
 - [ ] [jekyll-theme-mdui issues ](https://github.com/KeJunMao/jekyll-theme-mdui/issues)
 
+----
 
 **I'm submitting a**  (check one with "x")
 
